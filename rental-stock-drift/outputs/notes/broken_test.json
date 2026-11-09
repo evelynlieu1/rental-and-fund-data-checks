@@ -1,0 +1,8 @@
+{
+  "postcode": "2179",
+  "broken_note": "Postcode 2179 (NSW) shows strong rental bond growth from 1,323 bonds in December 2021 to 3,731 bonds now (December 2025), a drift of 144%. The estimated private rental stock has grown from 1,182 households at the 2021 Census to approximately 2,887 today. Bond lodgements have more than doubled, outpacing the estimated stock growth, which suggests either tightening vacancy, improved compliance with lodgement rules, or portfolio changes among landlords. An analyst should verify whether this postcode experienced new housing completions, migration inflow, or shifts in investor activity that might explain the divergence between stock and bond growth.",
+  "checker_passed": false,
+  "checker_problems": [
+    "'3,731' is not in the data row"
+  ]
+}

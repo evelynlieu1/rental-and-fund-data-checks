@@ -1,0 +1,14 @@
+{
+ "fund": "MA1",
+ "ai_rows": 122,
+ "check": {
+  "pass": 89,
+  "pass (table)": 17,
+  "fail: value not in quote": 9,
+  "pass (page fixed)": 4,
+  "fail: quote not in document": 3
+ },
+ "planted_fake": "fail: quote not in document",
+ "quotes_over_15_words": 42,
+ "scores": "no answer key for this fund"
+}

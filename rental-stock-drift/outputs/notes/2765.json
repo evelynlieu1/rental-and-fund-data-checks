@@ -1,0 +1,13 @@
+{
+  "postcode": "2765",
+  "model": "au.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "system": "You write short notes for a property data analyst. Use only the numbers in the data row you are given. Do not calculate new numbers, do not add facts about the area, and do not mention years or counts that are not in the row. You may show drift and multiplier as percentages. Round numbers to whole numbers or one decimal place. Bonds are COUNTS of tenancies, not money: never use a $ sign. Don't express growth as a multiple such as '2.4x'; use the drift percentage.",
+  "prompt": "Data row for one postcode (bonds held = rental bonds lodged with the state):\n{\n  \"state\": \"NSW\",\n  \"postcode\": \"2765\",\n  \"census_2021\": 2964,\n  \"bonds_2021\": 3551.0,\n  \"bonds_now\": 5834.0,\n  \"stock_now\": 4869.607,\n  \"drift\": 0.643,\n  \"multiplier\": 0.609,\n  \"base\": \"2021-12\",\n  \"now\": \"2025-12\"\n}\n\nField meanings:\n- census_2021: households renting privately on Census night 2021\n- bonds_2021, bonds_now: NUMBER of rental bonds held (one per tenancy) at the base period and now (periods are 'base' and 'now', as YYYY-MM)\n- drift: bond growth since the base period (0.5 means +50%)\n- stock_now: census_2021 grown by drift, an estimate of today's private rentals\n- multiplier: census_2021 / stock_now. A vacancy rate that still divides by the 2021 Census count, times this, gives the rate on today's stock.\n\nWrite a note of 3 to 5 sentences: what moved, since when, and what an analyst should check.",
+  "raw_reply": "# Postcode 2765 (NSW)\n\nRental bonds in this postcode grew from 3,551 to 5,834\u2014a drift of 64% since December 2021. The private rental stock is estimated to have expanded to 4,870 dwellings, based on the Census count of 2,964 households. The multiplier of 0.609 suggests the original Census vacancy rate should be multiplied by this factor to reflect today's tighter conditions. An analyst should verify whether the bond growth aligns with new housing development or reflects increased formalisation of existing rentals. The substantial drift also warrants checking whether migration or household formation drove the expansion.",
+  "checker_passed": true,
+  "checker_problems": [],
+  "usage": {
+    "input_tokens": 429,
+    "output_tokens": 150
+  }
+}

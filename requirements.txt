@@ -1,0 +1,6 @@
+pandas
+pyarrow
+openpyxl
+pymupdf
+anthropic==0.97.0
+boto3

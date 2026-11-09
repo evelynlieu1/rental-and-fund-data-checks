@@ -1,0 +1,85 @@
+MODEL: au.anthropic.claude-haiku-4-5-20251001-v1:0
+
+SYSTEM:
+You extract facts from fund documents for a research analyst. You copy, you never calculate or guess.
+
+PROMPT (pages filled in per chunk):
+Below are pages {first} to {last} of one document: {doc_name}. Each page starts with <page n=...>, its page
+number in the PDF file.
+
+
+Background: REV (Revolution Private Credit Income Trust, ASX:REV) is a listed trust. RE: Equity Trustees Limited.
+Manager: Revolution Asset Management Pty Ltd. REV invests almost all its assets in ONE unlisted fund,
+Revolution Private Debt Fund II (vehicle "RPDF II"), which holds senior secured corporate loans and asset-backed
+securities. Use vehicle "trust" for REV and "RPDF II" for the underlying fund. "Fund" means REV in some places
+and RPDF II in others: decide from context. Traps: Revolution's funds under management across the whole firm
+is not REV's size. Channel Capital's authorised representative number belongs to Channel, not the manager. The
+custodian (EQT Australia) is not the RE. Some tables (monthly distributions, credit ratings) extract with their
+columns out of order: take a value only if the quote shows its label next to it.
+underlying_allocation_pct sub_fields: rpdf2, cash.
+Strategy codes (fields 17, 18): corporate_loans, asset_backed, commercial_property, bonds, cash.
+
+Fields (name: unit, sub_fields, what to capture, traps). Every row also needs a "vehicle": "trust" (the listed
+trust itself) or the short name of the underlying fund or portfolio it describes. A figure for an underlying
+fund is NOT a figure for the trust.
+1. re_identity: the responsible entity (RE). sub_fields legal_name, afsl, acn. AFSL and ACN as digits only.
+   The RE and the investment manager are different companies.
+2. manager_identity: the investment manager. sub_fields legal_name, licence_number (digits only; in notes say
+   whether it is an AFSL, or an authorised representative number such as CAR or AFSRN).
+3. management_fee_pct_pa: the trust's own management fee, % p.a. sub_fields management_fee, re_fee (only if the
+   RE's fee is stated separately). Not the total fees and costs. Record the basis as printed (NAV, NTA, GAV).
+4. total_fees_and_costs_pct_pa: the trust's total management fees and costs (or MER/ICR), % p.a. sub_field total.
+   Record the basis and, in notes, the period it covers.
+5. performance_fee: sub_fields charged_by_trust (yes / no, from an explicit statement only), rate_pct (the
+   performance fee rate), estimated_pct_pa (an estimated performance fee as % p.a.). Say in vehicle who charges it.
+6. target_return: sub_field margin_pct (the margin over the benchmark, e.g. RBA cash rate + x% gives x);
+   basis = the benchmark and what it is net of, as printed. A distribution yield actually paid is not a target.
+7. underlying_allocation_pct: actual % of the trust in each underlying fund, sleeve or portfolio, with date.
+   sub_field = short name of that fund or sleeve. A target or limit is not an actual.
+8. loan_count: sub_fields loans (number of loans / investments / positions), borrowers (number of borrowers),
+   with date and vehicle.
+9. weighted_avg_lvr_pct: weighted average loan-to-value ratio, %, with date and vehicle. No sub_field.
+10. largest_exposure_pct: sub_fields actual (largest single borrower or loan as % of the portfolio, with date)
+   and limit (the stated maximum for a single borrower or loan). Say in notes borrower or loan.
+11. arrears_or_impairment_pct: % of the portfolio in arrears, impaired, non-performing or non-accrual, with date.
+   sub_field = the measure as printed in short (e.g. arrears_90d, impaired, non_performing).
+12. leverage: sub_fields actual and limit (borrowing as % or multiple, as printed), with vehicle.
+13. nta_per_unit: net tangible assets (or NAV) per unit in $, with date. No sub_field. Basis in basis (NTA/NAV,
+   pre- or post-tax).
+14. monthly_distribution_cpu: distribution in cents per unit for one month, with that month's last day as as_at.
+   No sub_field. An annual total or a yield is not this.
+15. fund_size_aud: sub_fields net_assets (or NAV), fum (funds under management), in whole AUD, with date and vehicle.
+   Convert $m, $bn and $'000.
+16. liquidity_or_buyback: sub_fields offer_pct (buy-back or redemption offer per period), cap_pct (any cap),
+   price_basis (text). Put the period and wording ("intends", "up to") in notes.
+17. strategy_mix_pct: actual % of the portfolio in each strategy or asset class, with date and vehicle.
+   sub_field = the strategy code listed in the background below.
+18. strategy_limits: the permitted range for each strategy or asset class, value_norm "min-max" (e.g. "10-40").
+   sub_field = the same strategy code. A target weight is not a range: put a single target in notes instead.
+19. offshore_pct: sub_fields actual (% of the portfolio outside Australia and New Zealand, or outside Australia,
+   as printed; say which in basis) and limit (the stated cap).
+
+
+Rules:
+- One row per value occurrence: if a field appears on several pages, give up to 3 rows for it, the clearest pages.
+- value_raw: the value exactly as printed on the page, copied character for character. For a yes/no or category
+  sub_field, value_raw is the printed words that show it, and value_norm is the category.
+- value_norm: the value cleaned: digits only for numbers (percent points, so 7.5 not 0.075; money in whole AUD),
+  or the category text the field asks for.
+- quote: at most 12 consecutive words from ONE page that contain value_raw, copied character for character
+  (you may drop line breaks). It is checked by code against the page text, so never paraphrase, shorten or join
+  words from different places.
+- pdf_page: the n in the <page n=...> tag the quote sits under. NOT the page number printed in the page text or in
+  a table of contents: those often differ from n, and a wrong page fails the check.
+- as_at: YYYY-MM-DD of the date the value describes, if the page or its footnote gives one; otherwise "".
+  Never use the document's own date unless the page states it for that value.
+- value_type: target, estimate, actual, actual for a period, policy limit, constitutional maximum, current rate,
+  or marketing claim. confidence: high, medium or low.
+- Only the numbered fields above. Leave out anything you can't quote. If a field isn't in these pages, leave it out:
+  never write a "not found" row.
+
+Reply with JSON only, no other text:
+{{"extractions": [{{"field": "", "sub_field": "", "vehicle": "", "value_raw": "", "value_norm": "", "unit": "", "basis": "",
+"as_at": "", "value_type": "", "pdf_page": 0, "quote": "", "confidence": "", "notes": ""}}]}}
+
+{pages}

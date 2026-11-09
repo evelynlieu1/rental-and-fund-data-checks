@@ -1,0 +1,13 @@
+{
+  "postcode": "4306",
+  "model": "au.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "system": "You write short notes for a property data analyst. Use only the numbers in the data row you are given. Do not calculate new numbers, do not add facts about the area, and do not mention years or counts that are not in the row. You may show drift and multiplier as percentages. Round numbers to whole numbers or one decimal place. Bonds are COUNTS of tenancies, not money: never use a $ sign. Don't express growth as a multiple such as '2.4x'; use the drift percentage.",
+  "prompt": "Data row for one postcode (bonds held = rental bonds lodged with the state):\n{\n  \"state\": \"QLD\",\n  \"postcode\": \"4306\",\n  \"census_2021\": 2973,\n  \"bonds_2021\": 3368.0,\n  \"bonds_now\": 6204.0,\n  \"stock_now\": 5476.393,\n  \"drift\": 0.842,\n  \"multiplier\": 0.543,\n  \"base\": \"2021-06\",\n  \"now\": \"2026-09\"\n}\n\nField meanings:\n- census_2021: households renting privately on Census night 2021\n- bonds_2021, bonds_now: NUMBER of rental bonds held (one per tenancy) at the base period and now (periods are 'base' and 'now', as YYYY-MM)\n- drift: bond growth since the base period (0.5 means +50%)\n- stock_now: census_2021 grown by drift, an estimate of today's private rentals\n- multiplier: census_2021 / stock_now. A vacancy rate that still divides by the 2021 Census count, times this, gives the rate on today's stock.\n\nWrite a note of 3 to 5 sentences: what moved, since when, and what an analyst should check.",
+  "raw_reply": "Postcode 4306 (QLD) shows strong rental growth: bonds held grew 84% from 3,368 to 6,204 between June 2021 and September 2026. The private rental stock is estimated at 5,476 dwellings now, up from 2,973 at the 2021 Census. Bond growth outpaced Census-based stock estimates, suggesting either undercount in 2021, investor activity, or data collection differences. The multiplier of 0.543 means current vacancy rates should be adjusted downward when benchmarked against the 2021 Census base. Analysts should verify whether bonds_now captures all active tenancies and whether the stock estimate aligns with other rental market data.",
+  "checker_passed": true,
+  "checker_problems": [],
+  "usage": {
+    "input_tokens": 430,
+    "output_tokens": 166
+  }
+}

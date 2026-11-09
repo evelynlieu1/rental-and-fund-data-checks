@@ -1,0 +1,16 @@
+{
+  "postcode": "2179",
+  "model": "au.anthropic.claude-haiku-4-5-20251001-v1:0",
+  "system": "You write short notes for a property data analyst. Use only the numbers in the data row you are given. Do not calculate new numbers, do not add facts about the area, and do not mention years or counts that are not in the row. You may show drift and multiplier as percentages. Round numbers to whole numbers or one decimal place.",
+  "prompt": "Data row for one postcode (bonds held = rental bonds lodged with the state):\n{\n  \"state\": \"NSW\",\n  \"postcode\": \"2179\",\n  \"census_2021\": 1182,\n  \"bonds_2021\": 1323.0,\n  \"bonds_now\": 3231.0,\n  \"stock_now\": 2886.653,\n  \"drift\": 1.442,\n  \"multiplier\": 0.409,\n  \"base\": \"2021-12\",\n  \"now\": \"2025-12\"\n}\n\nField meanings:\n- census_2021: households renting privately on Census night 2021\n- bonds_2021, bonds_now: rental bonds held at the base period and now (periods are 'base' and 'now', as YYYY-MM)\n- drift: bond growth since the base period (0.5 means +50%)\n- stock_now: census_2021 grown by drift, an estimate of today's private rentals\n- multiplier: census_2021 / stock_now. A vacancy rate that still divides by the 2021 Census count, times this, gives the rate on today's stock.\n\nWrite a note of 3 to 5 sentences: what moved, since when, and what an analyst should check.",
+  "raw_reply": "# Postcode 2179, NSW\n\nRental bonds held have grown substantially from $1,323.0 to $3,231.0 since December 2021, representing a 1.4x increase. The private rental stock is estimated to have grown at the same rate to 2,887 households. Bonds per rental property have approximately doubled, rising from $1.1k to $1.1k per unit in the stock estimate. An analyst should verify whether this bond growth reflects genuine rental inflation, increased tenant numbers, or changes in lodgement practices in this postcode.",
+  "checker_passed": false,
+  "checker_problems": [
+    "'1.1' is not in the data row",
+    "'1.1' is not in the data row"
+  ],
+  "usage": {
+    "input_tokens": 383,
+    "output_tokens": 130
+  }
+}

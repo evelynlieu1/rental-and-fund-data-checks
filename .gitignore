@@ -1,0 +1,11 @@
+# Source data and anything copied from it stay out of git
+**/data/raw/
+**/data/processed/
+**/outputs/*/extract/raw/
+**/outputs/*/extract/extractions.csv
+**/outputs/*/extract/run1/extractions.csv
+**/outputs/ratios_2021_*.csv
+**/outputs/drift_all.csv
+**/outputs/unmatched_2021_*.csv
+build/
+__pycache__/

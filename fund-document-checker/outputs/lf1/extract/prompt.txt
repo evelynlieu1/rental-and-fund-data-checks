@@ -1,0 +1,79 @@
+MODEL: au.anthropic.claude-haiku-4-5-20251001-v1:0
+
+SYSTEM:
+You extract facts from fund documents for a research analyst. You copy, you never calculate or guess.
+
+PROMPT (pages filled in per chunk):
+Below are pages {first} to {last} of one document: {doc_name}. Each page starts with <page n=...>, its page
+number in the PDF file.
+
+
+Background: LF1 (La Trobe Private Credit Fund, ASX:LF1) is a listed trust that invests in two funds:
+- 12MIA: the 12 Month Investment Account (called the "12 Month Term Account" before 2026), one account of the
+  La Trobe Australian Credit Fund (Australian mortgages). Figures for the whole Credit Fund, or its other
+  accounts, are NOT 12MIA figures.
+- USPC: the La Trobe US Private Credit Fund, which invests mainly in LGAM Private Credit LLC (US loans).
+- plus cash.
+The Responsible Entity (RE) and the Manager are two different companies. The word "Fund" means LF1 in the PDS and
+the LF1 annual report, but can mean another vehicle elsewhere: decide the vehicle from the context.
+
+Fields (name: vehicle, unit, sub_fields, what to capture, traps):
+1. re_identity: the RE. sub_fields legal_name, acn, afsl. Normalise the AFSL/ACN to digits only. An ACL is a credit
+   licence, not an AFSL. Don't take roles from structure-diagram text.
+2. manager_payment: how the Manager is paid. sub_fields paid_directly_by_lf1 (value_norm: yes / no) and paid_by
+   (value_norm exactly one of: "RE out of its own fee", "no fee payable by RE"). unit "category".
+3. lf1_re_fee_pct_pa: the RE's own fee on LF1, % p.a. No sub_field. value_type: current rate / estimate /
+   constitutional maximum. Not the total fees and costs, not recoverable or indirect costs.
+4. lf1_total_fees_and_costs_pct_pa: LF1's management fees and costs. sub_fields re_fee, recoverable, indirect, total.
+   Record the basis as printed (NAV or NTA). A 3-month return is not a fee.
+5. lgam_performance_fee_pct_of_lf1_nav: the performance fee LF1 bears through LGAM, % p.a. of LF1 NAV.
+   sub_fields with_waiver, without_waiver, assumed_uspc_weighting.
+6. 12mia_rebate_to_lf1_pct_pa: the rebate the 12MIA's responsible entity pays LF1, % p.a. No sub_field.
+   basis "not stated" unless the page says what it is a % of.
+7. 12mia_management_costs_pct_pa: the 12MIA's management costs or ICR, % p.a., with the period. No sub_field.
+   In a table with one column per account, use the 12 Month Investment Account column, not Total Fund.
+8. uspc_lgam_management_fees_pct_pa: sub_fields uspc_fee, uspc_constitutional_max, lgam_base_fee, lgam_recoverable.
+9. lf1_target_distribution: sub_field margin_over_rba_pct (the margin over the RBA cash rate); basis = what it is
+   net of, as printed. The 12MIA's own benchmark is not LF1's target.
+10. lf1_allocation_limits: permitted range of LF1's assets in each holding. sub_fields 12mia_range, uspc_range,
+   cash_range. value_norm "min-max", e.g. "10-90"; "no limit" is "0-unlimited". A target weighting is not a limit.
+11. lf1_allocation_actual_pct: actual % of LF1 in each holding, with date. sub_fields 12mia, uspc, cash.
+   Write "approximately" as "~" in value_norm. Don't derive % from dollar amounts.
+12. lf1_investment_in_12mia_aud: LF1's investment in the 12MIA in whole AUD, with date. No sub_field.
+   Convert $'000 and $m tables to whole dollars. A loan to buy LF1 units is not this.
+13. 12mia_weighted_avg_lvr_pct: the 12MIA's (weighted) average loan-to-value ratio, %, with date. No sub_field.
+   Not the whole Credit Fund's LVR, not the US portfolio's LTV.
+14. 12mia_max_lvr_pct: the 12MIA's stated maximum LVR, %. No sub_field. The size of an LVR bucket (such as the
+   share of loans above some LVR) is not a maximum. An impairment-review trigger is not a lending limit.
+15. 12mia_loan_count: number of loans or mortgages in the 12MIA, with date. No sub_field. Not the whole Credit Fund.
+16. uspc_weighted_avg_ltv_pct: weighted average loan-to-value of the US portfolio, %, with date. No sub_field.
+   Footnote numbers can be fused to the value ("38%7" is 38 with footnote 7); look up the footnote's date.
+17. lf1_buyback_policy: sub_fields quarterly_offer_pct, cap_12m_pct, approval_can_lift_cap (yes/no), price_basis
+   (text). Put the qualifier ("intends", "up to") in notes. An on-market buy-back is a separate programme.
+18. underlying_redemption_cap_pct_per_quarter: redemption cap per quarter of the vehicles LF1 invests in.
+   sub_fields uspc, lgam. basis = % of what (units, interests).
+
+
+Rules:
+- One row per value occurrence: if a field appears on several pages, give up to 3 rows for it, the clearest pages.
+- value_raw: the value exactly as printed on the page, copied character for character. For a yes/no or category
+  sub_field, value_raw is the printed words that show it, and value_norm is the category.
+- value_norm: the value cleaned: digits only for numbers (percent points, so 7.5 not 0.075; money in whole AUD),
+  or the category text the field asks for.
+- quote: at most 12 consecutive words from ONE page that contain value_raw, copied character for character
+  (you may drop line breaks). It is checked by code against the page text, so never paraphrase, shorten or join
+  words from different places.
+- pdf_page: the n in the <page n=...> tag the quote sits under. NOT the page number printed in the page text or in
+  a table of contents: those often differ from n, and a wrong page fails the check.
+- as_at: YYYY-MM-DD of the date the value describes, if the page or its footnote gives one; otherwise "".
+  Never use the document's own date unless the page states it for that value.
+- value_type: target, estimate, actual, actual for a period, policy limit, constitutional maximum, current rate,
+  or marketing claim. confidence: high, medium or low.
+- Only the numbered fields above. Leave out anything you can't quote. If a field isn't in these pages, leave it out:
+  never write a "not found" row.
+
+Reply with JSON only, no other text:
+{{"extractions": [{{"field": "", "sub_field": "", "vehicle": "", "value_raw": "", "value_norm": "", "unit": "", "basis": "",
+"as_at": "", "value_type": "", "pdf_page": 0, "quote": "", "confidence": "", "notes": ""}}]}}
+
+{pages}

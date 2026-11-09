@@ -1,0 +1,70 @@
+﻿rule,field,sub_field,result,detail
+"same field, different documents",fund_size_aud,fum,FLAG F484c60,
+"same document, different pages",fund_size_aud,net_assets,FLAG Ffa822a,
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p65 150000000 (2025-08-19) / report p1 441000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p65 150000000 (2025-08-19) / rg240 p1 464000000 (2026-06-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p65 400000000 (2025-08-19) / report p1 441000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p65 400000000 (2025-08-19) / rg240 p1 464000000 (2026-06-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",report p1 441000000 (2026-09-30) / rg240 p1 464000000 (2026-06-30)
+"same document, different pages",leverage,actual,FLAG Fa7082f,
+"same document, different pages",liquidity_or_buyback,offer_pct,FLAG F11deed,
+"same field, different documents",management_fee_pct_pa,management_fee,same,factsheet p3 and pds p59: 0.95 (undated)
+"same field, different documents",management_fee_pct_pa,management_fee,same,factsheet p3 and report p1: 0.95 (undated)
+"same field, different documents",management_fee_pct_pa,management_fee,same,pds p59 and report p1: 0.95 (undated)
+"same field, different documents",manager_identity,legal_name,same,factsheet p3 and pds p1: Revolution Asset Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,factsheet p3 and rg240 p2: Revolution Asset Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,pds p1 and rg240 p2: Revolution Asset Management Pty Ltd (undated)
+"same field, different documents",manager_identity,licence_number,same,factsheet p3 and pds p1: 507353 (undated)
+"same field, different documents",manager_identity,licence_number,same,factsheet p3 and report p1: 507353 (undated)
+"same field, different documents",manager_identity,licence_number,same,factsheet p3 and rg240 p2: 507353 (undated)
+"same field, different documents",manager_identity,licence_number,same,pds p1 and report p1: 507353 (undated)
+"same field, different documents",manager_identity,licence_number,same,pds p1 and rg240 p2: 507353 (undated)
+"same field, different documents",manager_identity,licence_number,same,report p1 and rg240 p2: 507353 (undated)
+same field,monthly_distribution_cpu,,"different dates, not compared",report p1 1.38 (2026-09-30) / report p1 1.31 (2026-07-31)
+same field,monthly_distribution_cpu,,"different dates, not compared",report p1 1.38 (2026-09-30) / rg240 p2 1.0025 (2026-06-30)
+same field,monthly_distribution_cpu,,"different dates, not compared",report p1 1.38 (2026-08-31) / report p1 1.31 (2026-07-31)
+same field,monthly_distribution_cpu,,"different dates, not compared",report p1 1.38 (2026-08-31) / rg240 p2 1.0025 (2026-06-30)
+same field,monthly_distribution_cpu,,"different dates, not compared",report p1 1.31 (2026-07-31) / rg240 p2 1.0025 (2026-06-30)
+same field,nta_per_unit,,"different dates, not compared",pds p46 2.00 (2025-08-19) / report p1 2.02 (2026-09-30)
+same field,nta_per_unit,,"different dates, not compared",pds p46 2.00 (2025-08-19) / rg240 p1 2.01 (2026-06-30)
+same field,nta_per_unit,,"different dates, not compared",report p1 2.02 (2026-09-30) / rg240 p1 2.01 (2026-06-30)
+"same field, different documents",re_identity,acn,same,factsheet p3 and pds p1: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,factsheet p3 and report p1: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,factsheet p3 and rg240 p2: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,pds p1 and report p1: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,pds p1 and rg240 p2: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,report p1 and rg240 p2: 004031298 (undated)
+"same field, different documents",re_identity,afsl,same,factsheet p3 and pds p1: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,factsheet p3 and report p1: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,factsheet p3 and rg240 p2: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,pds p1 and report p1: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,pds p1 and rg240 p2: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,report p1 and rg240 p2: 240975 (undated)
+"same field, different documents",re_identity,legal_name,same,factsheet p3 and pds p1: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,factsheet p3 and rg240 p2: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p1 and rg240 p2: Equity Trustees Limited (undated)
+"same field, different documents",strategy_mix_pct,asset_backed,FLAG F4634a8,
+"same field, different documents",strategy_mix_pct,asset_backed,FLAG F58660c,
+same field,strategy_mix_pct,asset_backed,"different dates, not compared",report p2 50.9 (2026-09-30) / rg240 p1 43.2 (2026-06-30)
+"same field, different documents",strategy_mix_pct,corporate_loans,FLAG F14f357,
+"same field, different documents",strategy_mix_pct,corporate_loans,FLAG Ff930fd,
+same field,strategy_mix_pct,corporate_loans,"different dates, not compared",report p2 49.1 (2026-09-30) / rg240 p1 56.8 (2026-06-30)
+"same field, different documents",target_return,margin_pct,same,factsheet p3 and pds p33: 4 (undated)
+"same field, different documents",target_return,margin_pct,same,factsheet p3 and rg240 p1: 4 (undated)
+"same field, different documents",target_return,margin_pct,same,pds p33 and rg240 p1: 4 (undated)
+"same field, different documents",underlying_allocation_pct,rpdf2,FLAG Faf6605,
+limit vs actual,leverage,actual,within limit,rg240 p2 actual 7.6 (2026-06-30) against pds p26 limit 25
+limit vs actual,leverage,actual,within limit,rg240 p2 actual 8.2 (2026-06-30) against pds p26 limit 25
+limit vs actual,strategy_mix_pct,asset_backed,within limit,pds p36 actual 51 () against pds p30 limit 20-80
+limit vs actual,strategy_mix_pct,asset_backed,within limit,report p2 actual 50.9 (2026-09-30) against pds p30 limit 20-80
+limit vs actual,strategy_mix_pct,asset_backed,within limit,rg240 p1 actual 43.2 (2026-06-30) against pds p30 limit 20-80
+limit vs actual,strategy_mix_pct,corporate_loans,within limit,pds p36 actual 49 () against pds p30 limit 20-80
+limit vs actual,strategy_mix_pct,corporate_loans,within limit,report p2 actual 49.1 (2026-09-30) against pds p30 limit 20-80
+limit vs actual,strategy_mix_pct,corporate_loans,within limit,rg240 p1 actual 56.8 (2026-06-30) against pds p30 limit 20-80
+ASX vs PDS,MER,total,same,pds p61 0.95 against ASX MER 0.95
+ASX vs PDS,ASX extras,,recorded,"MER 0.95, outperformance fee No, NTA price 2.0019, premium/discount to NTA -0.1% at 2026-08-31"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","factsheet p3 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","pds p1 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","report p1 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","rg240 p2 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,manager,,current licence,Revolution Asset Management Pty Ltd: AFSL 507353 REVOLUTION ASSET MANAGEMENT PTY LTD

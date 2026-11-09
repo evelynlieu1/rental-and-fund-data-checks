@@ -1,0 +1,20 @@
+{
+ "fund": "LF1",
+ "ai_rows": 139,
+ "check": {
+  "pass": 86,
+  "pass (page fixed)": 26,
+  "fail: no quote": 8,
+  "fail: value not in quote": 7,
+  "fail: quote not in document": 6,
+  "fail: wrong page, quote on several pages": 5,
+  "pass (table)": 1
+ },
+ "planted_fake": "fail: quote not in document",
+ "quotes_over_15_words": 63,
+ "recall_all": "25/29 = 86%",
+ "recall_evelyn_rows": "24/28",
+ "recall_claude_rows": "1/1",
+ "precision": "18/19 = 95%",
+ "ai_rows_unscored": 94
+}

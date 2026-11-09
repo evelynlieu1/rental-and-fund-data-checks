@@ -1,0 +1,17 @@
+{
+ "fund": "REV",
+ "ai_rows": 90,
+ "check": {
+  "pass": 62,
+  "pass (table)": 10,
+  "fail: wrong page, quote on several pages": 7,
+  "fail: quote not in document": 3,
+  "fail: value not in quote": 3,
+  "fail: no quote": 2,
+  "pass (page fixed)": 2,
+  "pass (table, page fixed)": 1
+ },
+ "planted_fake": "fail: quote not in document",
+ "quotes_over_15_words": 31,
+ "scores": "no answer key for this fund"
+}

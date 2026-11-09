@@ -1,0 +1,149 @@
+state,postcode,place,category,note,evidence_url,verdict
+NSW,2001,Sydney (GPO boxes and locked bags),PO box / mail-only postcode,"Sydney GPO Box code, no street delivery, so ABS has no postal area for it. 0 bonds.",https://auspost.com.au/postcode/2001,confirmed
+NSW,2002,World Square (PO boxes),PO box / mail-only postcode,Australia Post lists World Square PO boxes only. No ABS postal area. 0 bonds.,https://auspost.com.au/postcode/2002,confirmed
+NSW,2006,The University of Sydney (care PO),PO box / mail-only postcode,"University mail-only code, no ABS postal area. 1 bond, probably a mailing postcode written as the premises.",https://auspost.com.au/postcode/2006,confirmed
+NSW,2012,Strawberry Hills (PO boxes and locked bags),PO box / mail-only postcode,"PO boxes and locked bags only. 6 bonds, probably tenants or agents writing a mailing postcode.",https://auspost.com.au/postcode/2012,confirmed
+NSW,2057,Chatswood (PO boxes),PO box / mail-only postcode,Chatswood PO box code. Street addresses use 2067. 0 bonds.,https://auspost.com.au/postcode/2057,confirmed
+NSW,2059,North Sydney (PO boxes and locked bags),PO box / mail-only postcode,"North Sydney PO boxes and locked bags. 1 bond, probably a mailing postcode entered.",https://auspost.com.au/postcode/2059,confirmed
+NSW,2098,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not a valid Australia Post postcode. 2 bonds, probably a typing error at lodgement.",https://auspost.com.au/postcode/2098,confirmed
+NSW,2124,Parramatta (PO boxes and locked bags),PO box / mail-only postcode,Parramatta PO box code. Street addresses use 2150. 0 bonds.,https://auspost.com.au/postcode/2124,confirmed
+NSW,2129,Sydney Markets (PO boxes and locked bags),PO box / mail-only postcode,"Sydney Markets PO boxes and locked bags. 1 bond, probably a mailing postcode.",https://auspost.com.au/postcode/2129,confirmed
+NSW,2255,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not a valid Australia Post postcode. 1 bond, probably a typing error.",https://auspost.com.au/postcode/2255,confirmed
+NSW,2301,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not on Australia Post. Bonds: 18, 20, 12, 11, 12 (Dec 2021 to 2025), not 18 every year. Cause unknown.",https://auspost.com.au/postcode/2301,corrected
+NSW,2309,Dangar (PO boxes and locked bags),PO box / mail-only postcode,"PO boxes and locked bags only. 1 bond, probably a mailing postcode.",https://auspost.com.au/postcode/2309,confirmed
+NSW,2310,Hunter Region MC (PO boxes and locked bags),PO box / mail-only postcode,"Mail centre code, no street delivery or ABS postal area. 0 bonds.",https://auspost.com.au/postcode/2310,confirmed
+NSW,2331,Singleton Military Area / Singleton Milpo (Army training area),Non-residential or tiny area,Army training area. ABS publishes no data (no or very low population). Australia Post search now returns 0.,https://abs.gov.au/census/find-census-data/quickstats/2021/POA2331,corrected
+NSW,2348,New England MC (PO boxes and locked bags),PO box / mail-only postcode,"Mail centre code, no street delivery or ABS postal area. 0 bonds.",https://auspost.com.au/postcode/2348,confirmed
+NSW,2407,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not a valid Australia Post postcode. 0 bonds in 2021, 1 in later years. Probably a typing error.",https://auspost.com.au/postcode/2407,confirmed
+NSW,2438,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not a valid Australia Post postcode. 1 bond, probably a typing error.",https://auspost.com.au/postcode/2438,confirmed
+NSW,2520,Wollongong (PO boxes and locked bags),PO box / mail-only postcode,"Wollongong PO box code. Street addresses use 2500. 9 bonds, probably mailing postcodes entered.",https://auspost.com.au/postcode/2520,confirmed
+NSW,2624,"Perisher Valley, Charlotte Pass, Smiggin Holes, Guthega, Blue Cow, Munyang, Wilsons Valley",Non-residential or tiny area,"Ski resorts in a national park, 162 people. 9 renting households, none from private landlords. No bond row.",https://abs.gov.au/census/find-census-data/quickstats/2021/POA2624,confirmed
+NSW,2678,Charles Sturt University (Wagga Wagga) and Riverina MC,Non-residential or tiny area,"Campus postal area: 433 people but 0 private dwellings, so 0 renters. No bond row.",https://abs.gov.au/census/find-census-data/quickstats/2021/POA2678,confirmed
+NSW,2692,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not a valid Australia Post postcode. 0 bonds every year, so it is an empty row only.",https://auspost.com.au/postcode/2692,confirmed
+NSW,2708,Murray Region MC (PO boxes),PO box / mail-only postcode,"Mail centre code, no street delivery or ABS postal area. 0 bonds.",https://auspost.com.au/postcode/2708,confirmed
+NSW,2751,Penrith (PO boxes and locked bags),PO box / mail-only postcode,Penrith PO box code. Street addresses use 2750. 0 bonds.,https://auspost.com.au/postcode/2751,confirmed
+NSW,2755,RAAF Base Richmond (per Defence address); not listed by Australia Post search,Non-residential or tiny area,Defence base code; Australia Post search shows nothing now. Richmond town is 2753. 0 bonds.,https://www.defence.gov.au/adf-members-families/local-services-events/area-offices/richmond,confirmed
+NSW,2789,Not a current postcode (Australia Post returns 0 results),Other (explain),"Not a valid Australia Post postcode. 3 to 5 bonds a year, probably a typing error.",https://auspost.com.au/postcode/2789,confirmed
+NSW,2817,"Tooraweenah, Tonderburine",Other (explain),"Real rural delivery area, 15 renting households. No row in the 2021 NSW bonds file; cause unconfirmed.",https://auspost.com.au/postcode/2817,confirmed
+NSW,2822,"Eumungerie, Balladoran",Other (explain),"Real rural delivery area, 21 renting households. No row in the 2021 NSW bonds file; cause unconfirmed.",https://auspost.com.au/postcode/2822,confirmed
+NSW,2838,Goodooga,Other (explain),"Remote town, 36 renting households, only 7 private. No 2021 bond row; 3 bonds appear in 2025.",https://auspost.com.au/postcode/2838,confirmed
+NSW,2891,International MC (care PO),PO box / mail-only postcode,"International mail centre code (care PO), no street delivery or ABS postal area. 0 bonds.",https://auspost.com.au/postcode/2891,corrected
+QLD,4825,"Mount Isa (and Pioneer, Soldiers Hill, Sunset, Mornington)",Postcode not published by RTA at postcode level,"Missing from postcode table; RTA publishes Mount Isa (C) LGA 2,963 bonds and suburbs about 2,360.",https://auspost.com.au/postcode/4825,confirmed
+QLD,4610,Kingaroy,Postcode not published by RTA at postcode level,"Missing from postcode table; Kingaroy suburb shows 1,535 bonds; South Burnett LGA is published.",https://auspost.com.au/postcode/4610,confirmed
+QLD,4875,Thursday Island and Torres Strait islands,Postcode not published by RTA at postcode level,"Missing from postcode table; Thursday Island suburb 206 bonds; only 81 of 1,576 renters rent privately.",https://auspost.com.au/postcode/4875,confirmed
+QLD,4343,Gatton,Postcode not published by RTA at postcode level,"Missing from postcode table; Gatton suburb shows 1,226 bonds; Lockyer Valley LGA is published.",https://auspost.com.au/postcode/4343,confirmed
+QLD,4341,"Laidley, Plainland, Hatton Vale",Postcode not published by RTA at postcode level,"Missing from postcode table; Laidley suburbs show 680 bonds, Plainland 117; Lockyer Valley LGA is published.",https://auspost.com.au/postcode/4341,confirmed
+QLD,4820,Charters Towers,Postcode not published by RTA at postcode level,"Missing from postcode table; Charters Towers suburb 473 bonds, LGA 991.",https://auspost.com.au/postcode/4820,confirmed
+QLD,4850,Ingham,Postcode not published by RTA at postcode level,Missing from postcode table; Ingham suburb 563 bonds; Hinchinbrook LGA 873.,https://auspost.com.au/postcode/4850,confirmed
+QLD,4874,"Weipa area (Rocky Point, Trunding, Nanum, Napranum, Mapoon)",Postcode not published by RTA at postcode level,"Missing from postcode table; Weipa (T) LGA 487 bonds; Rocky Point 250, Nanum 122.",https://auspost.com.au/postcode/4874,confirmed
+QLD,4892,"Cape York and Gulf communities (Aurukun, Kowanyama, Pormpuraaw, Lockhart River, Coen, Laura)",Postcode not published by RTA at postcode level,"Missing from postcode table; only 9 of 984 renters rent privately, so few bonds expected.",https://auspost.com.au/postcode/4892,corrected
+QLD,4871,"Rural Far North (Chillagoe, Croydon, Georgetown, Yarrabah, Mount Molloy, Kurrimine Beach)",Postcode not published by RTA at postcode level,Missing from postcode table; covers 73 localities; only 405 of 949 renters rent privately.,https://auspost.com.au/postcode/4871,confirmed
+QLD,4715,Biloela,Postcode not published by RTA at postcode level,Missing from postcode table; Biloela suburb 709 bonds; Banana LGA is published.,https://auspost.com.au/postcode/4715,confirmed
+QLD,4311,Lowood,Postcode not published by RTA at postcode level,Missing from postcode table; Lowood suburb 541 bonds; Somerset LGA is published.,https://auspost.com.au/postcode/4311,confirmed
+QLD,4895,"Cooktown, Hope Vale, Wujal Wujal",Postcode not published by RTA at postcode level,Missing from postcode table; Cooktown suburb 230 bonds; Cook LGA 256.,https://auspost.com.au/postcode/4895,confirmed
+QLD,4615,Nanango,Postcode not published by RTA at postcode level,Missing from postcode table; Nanango suburb 456 bonds; South Burnett LGA is published.,https://auspost.com.au/postcode/4615,confirmed
+QLD,4605,"Murgon, Cherbourg",Postcode not published by RTA at postcode level,Missing from postcode table; Murgon suburb 275 bonds; 261 of 623 renters rent privately.,https://auspost.com.au/postcode/4605,confirmed
+QLD,4876,"Bamaga, Injinoo, New Mapoon, Seisia, Umagico",Postcode not published by RTA at postcode level,Missing from postcode table; only 8 of 615 renters rent privately.,https://auspost.com.au/postcode/4876,confirmed
+QLD,4854,Tully,Postcode not published by RTA at postcode level,Missing from postcode table; Tully suburb 391 bonds; Cassowary Coast LGA is published.,https://auspost.com.au/postcode/4854,confirmed
+QLD,4852,"Mission Beach, Wongaling Beach, South Mission Beach",Postcode not published by RTA at postcode level,Missing from postcode table; its suburbs show 565 bonds in the suburb sheet.,https://auspost.com.au/postcode/4852,confirmed
+QLD,4730,Longreach,Postcode not published by RTA at postcode level,"Missing from postcode table; Longreach suburb 461 bonds, LGA 508.",https://auspost.com.au/postcode/4730,confirmed
+QLD,4487,St George,Postcode not published by RTA at postcode level,Missing from postcode table; St George suburb 306 bonds; Balonne LGA is not in the LGA sheet.,https://auspost.com.au/postcode/4487,confirmed
+QLD,4824,Cloncurry,Postcode not published by RTA at postcode level,"Missing from postcode table; Cloncurry suburb 509 bonds, LGA 510.",https://auspost.com.au/postcode/4824,confirmed
+QLD,4470,Charleville,Postcode not published by RTA at postcode level,Missing from postcode table; Charleville suburb shows 354 bonds.,https://auspost.com.au/postcode/4470,confirmed
+QLD,4515,Kilcoy,Postcode not published by RTA at postcode level,Missing from postcode table; Kilcoy suburb 230 bonds; Somerset LGA is published.,https://auspost.com.au/postcode/4515,confirmed
+QLD,4718,Moura,Postcode not published by RTA at postcode level,Missing from postcode table; Moura suburb shows 346 bonds.,https://auspost.com.au/postcode/4718,confirmed
+QLD,4830,"Burketown, Doomadgee",Postcode not published by RTA at postcode level,Missing from postcode table; only 6 of 299 renters rent privately.,https://auspost.com.au/postcode/4830,confirmed
+QLD,4625,Gayndah,Postcode not published by RTA at postcode level,Missing from postcode table; Gayndah suburb 222 bonds; North Burnett LGA is published.,https://auspost.com.au/postcode/4625,confirmed
+QLD,4713,Woorabinda,Postcode not published by RTA at postcode level,"Missing from postcode table; 0 of 265 renters rent privately, so few bonds expected.",https://auspost.com.au/postcode/4713,confirmed
+QLD,4890,Normanton,Postcode not published by RTA at postcode level,Missing from postcode table; only 33 of 256 renters rent privately.,https://auspost.com.au/postcode/4890,confirmed
+QLD,4606,Wondai,Postcode not published by RTA at postcode level,Missing from postcode table; Wondai suburb shows 198 bonds.,https://auspost.com.au/postcode/4606,confirmed
+QLD,4490,Cunnamulla,Postcode not published by RTA at postcode level,"Missing from postcode table, part of the excluded South West block.",https://auspost.com.au/postcode/4490,confirmed
+QLD,4626,Mundubbera,Postcode not published by RTA at postcode level,Missing from postcode table; North Burnett LGA is published instead.,https://auspost.com.au/postcode/4626,confirmed
+QLD,4849,Cardwell,Postcode not published by RTA at postcode level,Missing from postcode table; Cardwell suburb shows 240 bonds.,https://auspost.com.au/postcode/4849,confirmed
+QLD,4342,"Forest Hill, Glenore Grove, Lockrose",Postcode not published by RTA at postcode level,Missing from postcode table; Lockyer Valley LGA is published instead.,https://auspost.com.au/postcode/4342,confirmed
+QLD,4630,Monto,Postcode not published by RTA at postcode level,Missing from postcode table; North Burnett LGA is published instead.,https://auspost.com.au/postcode/4630,confirmed
+QLD,4314,"Blackbutt, Benarkin, Linville",Postcode not published by RTA at postcode level,"Missing from postcode table; South Burnett LGA, not Somerset; postcode was 4306 until 2018.","https://en.wikipedia.org/wiki/Blackbutt,_Queensland",corrected
+QLD,4344,Helidon,Postcode not published by RTA at postcode level,Missing from postcode table; Helidon suburb 151 bonds; Lockyer Valley LGA is published.,https://auspost.com.au/postcode/4344,confirmed
+QLD,4313,Toogoolawah,Postcode not published by RTA at postcode level,Missing from postcode table; Somerset LGA is published instead.,https://auspost.com.au/postcode/4313,confirmed
+QLD,4312,Esk,Postcode not published by RTA at postcode level,Missing from postcode table; Somerset LGA is published instead.,https://auspost.com.au/postcode/4312,confirmed
+QLD,4725,Barcaldine,Postcode not published by RTA at postcode level,Missing from postcode table; Barcaldine suburb shows 141 bonds.,https://auspost.com.au/postcode/4725,confirmed
+QLD,4821,Hughenden,Postcode not published by RTA at postcode level,"Missing from postcode table, part of the excluded North West block 4820-4830.",https://auspost.com.au/postcode/4821,confirmed
+QLD,4472,Blackall,Postcode not published by RTA at postcode level,Missing from postcode table; Blackall suburb shows 150 bonds.,https://auspost.com.au/postcode/4472,confirmed
+QLD,4621,Biggenden,Postcode not published by RTA at postcode level,Missing from postcode table; North Burnett LGA is published instead.,https://auspost.com.au/postcode/4621,confirmed
+QLD,4465,Mitchell,Postcode not published by RTA at postcode level,Missing from postcode table; Maranoa LGA is published instead.,https://auspost.com.au/postcode/4465,confirmed
+QLD,4719,"Theodore, Cracow",Postcode not published by RTA at postcode level,Missing from postcode table; Banana LGA is published instead.,https://auspost.com.au/postcode/4719,confirmed
+QLD,4735,Winton,Postcode not published by RTA at postcode level,"Missing from postcode table, part of the excluded Central West block.",https://auspost.com.au/postcode/4735,confirmed
+QLD,4601,Goomeri,Postcode not published by RTA at postcode level,"Missing from postcode table; Goomeri is in Gympie Region, not South Burnett.",https://en.wikipedia.org/wiki/Goomeri,corrected
+QLD,4219,West Burleigh (PO Box postcode),PO box / mail-only postcode,Australia Post lists 4219 as PO Box only; ABS has no POA4219; 14 bonds coded to mail postcode.,https://auspost.com.au/postcode/4219,confirmed
+QLD,4271,Eagle Heights (PO Box postcode),PO box / mail-only postcode,Australia Post lists 4271 as PO Box; ABS has no POA4271; homes sit in POA 4272.,https://auspost.com.au/postcode/4271,confirmed
+QLD,4858,"Mourilyan, Etty Bay",Postcode not published by RTA at postcode level,Small; inside the excluded Cassowary Coast block 4849-4859.,https://auspost.com.au/postcode/4858,confirmed
+QLD,4420,Taroom,Postcode not published by RTA at postcode level,Small; inside the excluded 4417-4497 western block.,https://auspost.com.au/postcode/4420,confirmed
+QLD,4829,"Boulia, Bedourie",Postcode not published by RTA at postcode level,Small; 0 private renters; inside the excluded North West block.,https://auspost.com.au/postcode/4829,confirmed
+QLD,4347,"Grantham, Ma Ma Creek",Postcode not published by RTA at postcode level,Small; inside the excluded Lockyer Valley block.,https://auspost.com.au/postcode/4347,confirmed
+QLD,4480,"Quilpie, Eromanga",Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4480,confirmed
+QLD,4417,Surat,Postcode not published by RTA at postcode level,Small; inside the excluded 4417-4497 western block.,https://auspost.com.au/postcode/4417,confirmed
+QLD,4627,Eidsvold,Postcode not published by RTA at postcode level,Small; inside the excluded North Burnett block.,https://auspost.com.au/postcode/4627,confirmed
+QLD,4486,"Dirranbandi, Hebel",Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4486,confirmed
+QLD,4891,Karumba,Postcode not published by RTA at postcode level,Small; inside the excluded Gulf and Cape block.,https://auspost.com.au/postcode/4891,confirmed
+QLD,4823,"Julia Creek, Kynuna",Postcode not published by RTA at postcode level,Small; inside the excluded North West block.,https://auspost.com.au/postcode/4823,confirmed
+QLD,4608,"Wooroolin, Tingoora",Postcode not published by RTA at postcode level,Small; inside the excluded South Burnett block.,https://auspost.com.au/postcode/4608,confirmed
+QLD,4613,Proston,Postcode not published by RTA at postcode level,Small; inside the excluded South Burnett block.,https://auspost.com.au/postcode/4613,confirmed
+QLD,4716,Thangool,Postcode not published by RTA at postcode level,Small; inside the excluded Banana block 4715-4719.,https://auspost.com.au/postcode/4716,confirmed
+QLD,4600,Kilkivan,Postcode not published by RTA at postcode level,"Small; Kilkivan is in Gympie Region, not South Burnett; absent from postcode table.",https://en.wikipedia.org/wiki/Kilkivan,corrected
+QLD,4822,Richmond,Postcode not published by RTA at postcode level,Small; inside the excluded North West block.,https://auspost.com.au/postcode/4822,confirmed
+QLD,4478,Tambo,Postcode not published by RTA at postcode level,Small; inside the excluded western block.,https://auspost.com.au/postcode/4478,confirmed
+QLD,4855,"El Arish, Daveson",Postcode not published by RTA at postcode level,Small; inside the excluded Cassowary Coast block.,https://auspost.com.au/postcode/4855,confirmed
+QLD,4454,Injune,Postcode not published by RTA at postcode level,Small; inside the excluded western block.,https://auspost.com.au/postcode/4454,confirmed
+QLD,4856,Silkwood,Postcode not published by RTA at postcode level,Small; inside the excluded Cassowary Coast block.,https://auspost.com.au/postcode/4856,confirmed
+QLD,4798,"Calen, St Helens Beach",Postcode not published by RTA at postcode level,"Small; Mackay-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4798,confirmed
+QLD,4799,"Bloomsbury, Midge Point",Postcode not published by RTA at postcode level,"Small; Mackay/Whitsunday postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4799,confirmed
+QLD,4662,Torbanlea,Postcode not published by RTA at postcode level,"Small; Fraser Coast postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4662,confirmed
+QLD,4724,Alpha,Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4724,confirmed
+QLD,4695,"Mount Larcom, Bracewell",Postcode not published by RTA at postcode level,"Small; Gladstone-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4695,confirmed
+QLD,4738,"Koumala, Ilbilbie",Postcode not published by RTA at postcode level,"Small; Mackay-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4738,confirmed
+QLD,4492,Thargomindah,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4492,confirmed
+QLD,4859,South Johnstone,Postcode not published by RTA at postcode level,Small; inside the excluded Cassowary Coast block.,https://auspost.com.au/postcode/4859,confirmed
+QLD,4678,"Turkey Beach, Rodds Bay",Postcode not published by RTA at postcode level,"Small; Gladstone-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4678,confirmed
+QLD,4428,Wallumbilla,Postcode not published by RTA at postcode level,Small; inside the excluded western block.,https://auspost.com.au/postcode/4428,confirmed
+QLD,4711,"Glenlee, Glendale",Postcode not published by RTA at postcode level,"Small; Rockhampton-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4711,confirmed
+QLD,4008,"Pinkenba, Brisbane Airport, Myrtletown",Non-residential or tiny area,Mostly airport and port land; 32 renters; no RTA postcode row.,https://www.matthewproctor.com/full_australian_postcodes_QLD,confirmed
+QLD,4726,Aramac,Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4726,confirmed
+QLD,4756,Finch Hatton,Postcode not published by RTA at postcode level,"Small; Mackay-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4756,confirmed
+QLD,4477,Augathella,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4477,confirmed
+QLD,4427,Yuleba,Postcode not published by RTA at postcode level,Small; inside the excluded western block.,https://auspost.com.au/postcode/4427,confirmed
+QLD,4673,"Miara, Waterloo, Yandaran",Postcode not published by RTA at postcode level,"Small; Bundaberg-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4673,confirmed
+QLD,4705,"Marlborough, Clarke Creek",Postcode not published by RTA at postcode level,"Small rural postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4705,confirmed
+QLD,4828,Camooweal,Postcode not published by RTA at postcode level,Small; 0 private renters; inside the excluded North West block.,https://auspost.com.au/postcode/4828,confirmed
+QLD,4620,"Brooweena, Aramara",Postcode not published by RTA at postcode level,"Small; Fraser Coast Region, not North Burnett; absent from RTA postcode table.",https://en.wikipedia.org/wiki/Brooweena,corrected
+QLD,4727,Ilfracombe,Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4727,confirmed
+QLD,4025,"Moreton Island (Bulwer, Kooringal, Tangalooma)",Non-residential or tiny area,Island with 20 renting households; no RTA postcode row.,https://www.matthewproctor.com/full_australian_postcodes_QLD,confirmed
+QLD,4482,Birdsville,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4482,confirmed
+QLD,4488,Bollon,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4488,confirmed
+QLD,4497,"Thallon, Daymar",Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4497,confirmed
+QLD,4757,"Eungella, Dalrymple Heights",Postcode not published by RTA at postcode level,"Small; Mackay-area postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4757,confirmed
+QLD,4699,"Bajool, Port Alma",Postcode not published by RTA at postcode level,"Small rural postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4699,confirmed
+QLD,4728,Jericho,Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4728,confirmed
+QLD,4736,Jundah,Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4736,confirmed
+QLD,4468,Morven,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4468,confirmed
+QLD,4494,"Bungunya, Tarawera",Postcode not published by RTA at postcode level,"RTA has a 4494 row, but every quarter is blank; 12 renters.",https://auspost.com.au/postcode/4494,confirmed
+QLD,4481,Windorah,Postcode not published by RTA at postcode level,Small; 0 private renters; inside the excluded South West block.,https://auspost.com.au/postcode/4481,confirmed
+QLD,4694,"Yarwun, Targinnie, Aldoga",Postcode not published by RTA at postcode level,Small Gladstone industrial-fringe postcode left out of the RTA table.,https://auspost.com.au/postcode/4694,confirmed
+QLD,4731,"Isisford, Yaraka",Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4731,confirmed
+QLD,4612,"Hivesville, Wigton",Postcode not published by RTA at postcode level,Small; inside the excluded South Burnett block.,https://auspost.com.au/postcode/4612,confirmed
+QLD,4676,"Lowmead, Gindoran",Postcode not published by RTA at postcode level,"Small rural postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4676,confirmed
+QLD,4467,Mungallala,Postcode not published by RTA at postcode level,Small; 0 private renters; inside the excluded western block.,https://auspost.com.au/postcode/4467,confirmed
+QLD,4697,Raglan,Postcode not published by RTA at postcode level,"Small rural postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4697,confirmed
+QLD,4733,Corfield,Postcode not published by RTA at postcode level,Small; inside the excluded Central West block.,https://auspost.com.au/postcode/4733,confirmed
+QLD,4491,Eulo,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4491,confirmed
+QLD,4704,"Yaamba, Wattlebank",Postcode not published by RTA at postcode level,"Small rural postcode left out of the RTA table, no stated reason.",https://auspost.com.au/postcode/4704,confirmed
+QLD,4732,Muttaburra,Postcode not published by RTA at postcode level,Small; 0 private renters; inside the excluded Central West block.,https://auspost.com.au/postcode/4732,confirmed
+QLD,4611,"Mondure, Marshlands",Postcode not published by RTA at postcode level,Small; inside the excluded South Burnett block.,https://auspost.com.au/postcode/4611,confirmed
+QLD,4489,Wyandra,Postcode not published by RTA at postcode level,Small; inside the excluded South West block.,https://auspost.com.au/postcode/4489,confirmed
+QLD,4009,Eagle Farm,Non-residential or tiny area,Industrial and airport area with 3 renting households; no RTA postcode row.,https://www.matthewproctor.com/full_australian_postcodes_QLD,confirmed
+QLD,4706,Ogmore,Postcode not published by RTA at postcode level,Tiny; 3 renters; rural postcode left out of the RTA table.,https://auspost.com.au/postcode/4706,confirmed
+QLD,4426,Jackson,Non-residential or tiny area,Census shows 0 renting households; nothing to compare.,https://auspost.com.au/postcode/4426,confirmed
+QLD,4461,Muckadilla,Non-residential or tiny area,Census shows 0 renting households; nothing to compare.,https://auspost.com.au/postcode/4461,confirmed
+QLD,4462,"Amby, Eurella, Walhallow",Non-residential or tiny area,Census shows 0 renting households; nothing to compare.,https://auspost.com.au/postcode/4462,confirmed
+QLD,4474,Adavale,Non-residential or tiny area,Census shows 0 renting households; nothing to compare.,https://auspost.com.au/postcode/4474,confirmed
+QLD,4479,Cooladdi,Non-residential or tiny area,Census shows 0 renting households; nothing to compare.,https://auspost.com.au/postcode/4479,confirmed
+QLD,4493,Hungerford,Non-residential or tiny area,Census shows 0 renting households; nothing to compare.,https://auspost.com.au/postcode/4493,confirmed

@@ -1,0 +1,30 @@
+﻿row,field,sub_field,doc,pdf_page,gold_value,labelled_by,ai_values_for_field_and_doc,hit
+1,re_identity,afsl,pds,2,222213,evelyn,222213 (p2); 222213 (p60); 222213 (p120),True
+2,re_identity,afsl,ar,8,222213,evelyn,222213 (p8),True
+3,manager_payment,paid_by,pds,27,no fee payable by RE,evelyn,RE out of its own fee (p107),False
+4,manager_payment,paid_by,pds,61,RE out of its own fee,evelyn,RE out of its own fee (p107),True
+5,manager_payment,paid_directly_by_lf1,ar,33,no,evelyn,no (p8),True
+6,lf1_re_fee_pct_pa,,pds,80,0.05,evelyn,0.05 (p25); 0.05 (p83),True
+7,lf1_re_fee_pct_pa,,ar,33,0.05,evelyn,0.05 (p33),True
+8,lf1_total_fees_and_costs_pct_pa,total,pds,80,1.93,evelyn,1.93 (p25); 1.93 (p80),True
+9,lf1_total_fees_and_costs_pct_pa,total,profile,3,1.93,evelyn,,False
+10,lf1_total_fees_and_costs_pct_pa,total,ar,,not stated,claude,,True
+11,lgam_performance_fee_pct_of_lf1_nav,with_waiver,pds,85,0.07,evelyn,0.07 (p25),True
+12,12mia_rebate_to_lf1_pct_pa,,pds,84,0.50,evelyn,0.50 (p43); 0.50 (p84),True
+13,12mia_management_costs_pct_pa,,pds,84,1.80,evelyn,1.80 (p84),True
+14,12mia_management_costs_pct_pa,,uar,17,1.70,evelyn,1.70 (p17),True
+15,lf1_target_distribution,margin_over_rba_pct,pds,15,3.25,evelyn,,False
+16,lf1_allocation_limits,12mia_range,pds,46,20-100,evelyn,20-100 (p17),True
+17,lf1_allocation_actual_pct,uspc,profile,2,58.79,evelyn,58.79 (p2),True
+18,lf1_allocation_actual_pct,uspc,ar,7,~59,evelyn,~59 (p7),True
+19,lf1_investment_in_12mia_aud,,ar,24,110200000,evelyn,110200000 (p24),True
+20,lf1_investment_in_12mia_aud,,uar,40,110200000,evelyn,110200000 (p40),True
+21,12mia_weighted_avg_lvr_pct,,pds,48,65,evelyn,64.7 (p20),False
+22,12mia_weighted_avg_lvr_pct,,ar,7,67.5,evelyn,67.5 (p7),True
+23,12mia_max_lvr_pct,,pds,48,80,evelyn,80 (p48),True
+24,12mia_loan_count,,pds,48,11540,evelyn,11540 (p48),True
+25,12mia_loan_count,,uar,7,10789,evelyn,10789 (p7),True
+26,uspc_weighted_avg_ltv_pct,,ar,7,38.8,evelyn,38.8 (p7),True
+27,uspc_weighted_avg_ltv_pct,,profile,3,38.4,evelyn,38.4 (p5),True
+28,lf1_buyback_policy,quarterly_offer_pct,pds,54,5,evelyn,5 (p54),True
+29,underlying_redemption_cap_pct_per_quarter,uspc,ar,26,5,evelyn,5 (p26),True

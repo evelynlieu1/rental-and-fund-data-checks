@@ -1,0 +1,107 @@
+﻿rule,field,sub_field,result,detail
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 559314000 (2026-06-30) / ar p4 331565000 (2025-06-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 559314000 (2026-06-30) / pds p88 150000000 (2025-01-20)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 559314000 (2026-06-30) / pds p88 300000000 (2025-01-20)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 559314000 (2026-06-30) / spds p5 330000000 (2025-02-07)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 559314000 (2026-06-30) / spds p5 150000000 (2025-02-07)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 559314000 (2026-06-30) / update p1 559000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 331565000 (2025-06-30) / pds p88 150000000 (2025-01-20)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 331565000 (2025-06-30) / pds p88 300000000 (2025-01-20)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 331565000 (2025-06-30) / spds p5 330000000 (2025-02-07)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 331565000 (2025-06-30) / spds p5 150000000 (2025-02-07)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p4 331565000 (2025-06-30) / update p1 559000000 (2026-09-30)
+"same document, different pages",fund_size_aud,net_assets,FLAG F8acbe3,
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p88 150000000 (2025-01-20) / spds p5 330000000 (2025-02-07)
+"same field, different documents",fund_size_aud,net_assets,same,pds p88 and spds p5: 150000000 (2025-01-20)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p88 150000000 (2025-01-20) / update p1 559000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p88 300000000 (2025-01-20) / spds p5 330000000 (2025-02-07)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p88 300000000 (2025-01-20) / spds p5 150000000 (2025-02-07)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p88 300000000 (2025-01-20) / update p1 559000000 (2026-09-30)
+"same document, different pages",fund_size_aud,net_assets,FLAG Fd0cd0d,
+same field,fund_size_aud,net_assets,"different dates, not compared",spds p5 330000000 (2025-02-07) / update p1 559000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",spds p5 150000000 (2025-02-07) / update p1 559000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p12 559000000 (2026-06-30) / ar p12 331000000 (2025-06-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p12 559000000 (2026-06-30) / update p1 7900000000 (2026-09-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",ar p12 331000000 (2025-06-30) / update p1 7900000000 (2026-09-30)
+same field,largest_exposure_pct,actual,"different dates, not compared",ar p12 0.4 (2026-06-30) / update p1 1.3 (2026-09-30)
+"same document, different pages",liquidity_or_buyback,offer_pct,FLAG Fd20324,
+"same field, different documents",liquidity_or_buyback,offer_pct,FLAG Fb628da,
+same field,liquidity_or_buyback,offer_pct,"different dates, not compared",ar p3 5 (2025-11-24) / update p5 2.5 (2026-10-01)
+"same field, different documents",liquidity_or_buyback,offer_pct,FLAG Ffbbf87,
+"same field, different documents",liquidity_or_buyback,offer_pct,FLAG Ffbbf87,
+same field,loan_count,loans,"different dates, not compared",ar p12 237 (2026-06-30) / pds p43 165 (2024-09-30)
+same field,loan_count,loans,"different dates, not compared",ar p12 237 (2026-06-30) / update p1 246 (2026-09-30)
+same field,loan_count,loans,"different dates, not compared",pds p43 165 (2024-09-30) / update p1 246 (2026-09-30)
+"same field, different documents",management_fee_pct_pa,management_fee,same,ar p41 and pds p21: 0.90 (undated)
+"same field, different documents",management_fee_pct_pa,management_fee,FLAG Fd0b9db,
+"same field, different documents",management_fee_pct_pa,management_fee,FLAG F11e328,
+"same field, different documents",manager_identity,legal_name,same,ar p7 and pds p1: MA Investment Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,ar p7 and spds p1: MA Investment Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,ar p7 and update p11: MA Investment Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,pds p1 and spds p1: MA Investment Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,pds p1 and update p11: MA Investment Management Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,spds p1 and update p11: MA Investment Management Pty Ltd (undated)
+"same field, different documents",manager_identity,licence_number,FLAG Fd69c0d,
+"same field, different documents",manager_identity,licence_number,same,ar p3 and pds p118: 621552896 (undated)
+"same field, different documents",manager_identity,licence_number,FLAG F0d4d26,
+"same field, different documents",manager_identity,licence_number,FLAG Ffecb93,
+"same document, different pages",manager_identity,licence_number,FLAG F67d920,
+"same field, different documents",manager_identity,licence_number,same,pds p1 and spds p1: 001258449 (undated)
+"same field, different documents",manager_identity,licence_number,same,pds p1 and update p11: 001258449 (undated)
+"same field, different documents",manager_identity,licence_number,FLAG Fdb30e6,
+"same field, different documents",manager_identity,licence_number,FLAG F8d1c3f,
+"same field, different documents",manager_identity,licence_number,same,spds p1 and update p11: 001258449 (undated)
+same field,monthly_distribution_cpu,,"different dates, not compared",ar p2 1.5202 (2025-08-31) / ar p2 1.4317 (2025-09-30)
+same field,monthly_distribution_cpu,,"different dates, not compared",ar p2 1.5202 (2025-08-31) / ar p2 1.3486 (2026-06-30)
+same field,monthly_distribution_cpu,,"different dates, not compared",ar p2 1.4317 (2025-09-30) / ar p2 1.3486 (2026-06-30)
+"same field, different documents",nta_per_unit,,same,ar p4 and pds p7: 2.00 (2026-06-30)
+"same field, different documents",nta_per_unit,,same,ar p4 and spds p5: 2.00 (2026-06-30)
+"same field, different documents",nta_per_unit,,same,ar p4 and update p1: 2.00 (2026-06-30)
+"same field, different documents",nta_per_unit,,same,pds p7 and spds p5: 2.00 (2025-02-28)
+"same field, different documents",nta_per_unit,,same,pds p7 and update p1: 2.00 (2025-02-28)
+"same field, different documents",nta_per_unit,,same,spds p5 and update p1: 2.00 (2025-02-07)
+same field,offshore_pct,actual,"different dates, not compared",pds p18 3 (2025-01-20) / update p4 17 (2026-09-30)
+"same field, different documents",re_identity,acn,same,ar p1 and pds p1: 46004031298 (undated)
+"same field, different documents",re_identity,acn,same,ar p1 and spds p1: 46004031298 (undated)
+"same field, different documents",re_identity,acn,same,ar p1 and update p11: 46004031298 (undated)
+"same field, different documents",re_identity,acn,same,pds p1 and spds p1: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,pds p1 and update p11: 004031298 (undated)
+"same field, different documents",re_identity,acn,same,spds p1 and update p11: 004031298 (undated)
+"same field, different documents",re_identity,afsl,same,ar p1 and pds p1: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,ar p1 and spds p1: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,ar p1 and update p11: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,pds p1 and spds p1: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,pds p1 and update p11: 240975 (undated)
+"same field, different documents",re_identity,afsl,same,spds p1 and update p11: 240975 (undated)
+"same field, different documents",re_identity,legal_name,same,ar p1 and pds p1: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,ar p1 and spds p1: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,ar p1 and update p11: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p1 and spds p1: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p1 and update p11: Equity Trustees Limited (undated)
+"same field, different documents",re_identity,legal_name,same,spds p1 and update p11: Equity Trustees Limited (undated)
+same field,strategy_mix_pct,asset_backed,"different dates, not compared",pds p43 55.9 (2024-09-30) / update p2 66 (2026-09-30)
+same field,strategy_mix_pct,direct_asset_lending,"different dates, not compared",pds p43 40.0 (2024-09-30) / update p2 19 (2026-09-30)
+same field,strategy_mix_pct,direct_corporate_lending,"different dates, not compared",pds p43 4.1 (2024-09-30) / update p2 15 (2026-09-30)
+"same field, different documents",target_return,margin_pct,same,ar p7 and update p1: 4.25 (undated)
+limit vs actual,largest_exposure_pct,actual,within limit,ar p12 actual 0.4 (2026-06-30) against pds p46 limit 20
+limit vs actual,largest_exposure_pct,actual,within limit,update p1 actual 1.3 (2026-09-30) against pds p46 limit 20
+limit vs actual,leverage,actual,FLAG F6d79a6,update p3 actual 1.6 (2026-09-30) against pds p40 limit 25-33
+limit vs actual,leverage,actual,within limit,update p3 actual 1.6 (2026-09-30) against pds p46 limit 25
+limit vs actual,leverage,actual,within limit,update p3 actual 1.6 (2026-09-30) against pds p19 limit 30
+limit vs actual,leverage,actual,within limit,update p3 actual 1.6 (2026-09-30) against pds p20 limit 33
+limit vs actual,offshore_pct,actual,within limit,pds p18 actual 3 (2025-01-20) against pds p18 limit 10
+limit vs actual,offshore_pct,actual,FLAG F52d587,update p4 actual 17 (2026-09-30) against pds p18 limit 10
+limit vs actual,strategy_mix_pct,asset_backed,within limit,pds p43 actual 55.9 (2024-09-30) against pds p18 limit 40-60
+limit vs actual,strategy_mix_pct,asset_backed,FLAG Fe7ceae,update p2 actual 66 (2026-09-30) against pds p18 limit 40-60
+limit vs actual,strategy_mix_pct,direct_asset_lending,within limit,pds p43 actual 40.0 (2024-09-30) against pds p18 limit 30-50
+limit vs actual,strategy_mix_pct,direct_asset_lending,FLAG F1264f4,update p2 actual 19 (2026-09-30) against pds p18 limit 30-50
+limit vs actual,strategy_mix_pct,direct_corporate_lending,within limit,pds p43 actual 4.1 (2024-09-30) against pds p18 limit 0-30
+limit vs actual,strategy_mix_pct,direct_corporate_lending,within limit,update p2 actual 15 (2026-09-30) against pds p18 limit 0-30
+ASX vs PDS,MER,total,FLAG Fa118cc,pds p72 1.21 against ASX MER 0.9
+ASX vs PDS,MER,total,FLAG Fd490fb,update p9 1.20 against ASX MER 0.9
+ASX vs PDS,ASX extras,,recorded,"MER 0.9, outperformance fee nan, NTA price nan, premium/discount to NTA -2.5% at 2026-08-31"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","ar p1 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","pds p1 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","spds p1 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","update p11 AFSL 240975: register name EQUITY TRUSTEES LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,manager,,FLAG F812a4c,MA Investment Management Pty Ltd

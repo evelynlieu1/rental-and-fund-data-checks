@@ -1,0 +1,16 @@
+{
+ "fund": "MXT",
+ "ai_rows": 121,
+ "check": {
+  "pass": 77,
+  "pass (table)": 20,
+  "pass (page fixed)": 9,
+  "fail: no quote": 6,
+  "fail: wrong page, quote on several pages": 5,
+  "fail: value not in quote": 3,
+  "fail: quote not in document": 1
+ },
+ "planted_fake": "fail: quote not in document",
+ "quotes_over_15_words": 36,
+ "scores": "no answer key for this fund"
+}

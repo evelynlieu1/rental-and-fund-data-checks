@@ -1,0 +1,153 @@
+﻿rule,field,sub_field,result,detail
+"same field, different documents",fund_size_aud,net_assets,same,monthly_06 p1 and monthly_07 p1: 2450000000 (2026-06-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",monthly_06 p1 2450000000 (2026-06-30) / pds p52 1300000000 (2019-12-31)
+same field,fund_size_aud,net_assets,"different dates, not compared",monthly_06 p1 2450000000 (2026-06-30) / pds p82 1277367000 (2019-12-31)
+"same field, different documents",fund_size_aud,net_assets,FLAG F79b08d,
+same field,fund_size_aud,net_assets,"different dates, not compared",monthly_07 p1 2450000000 (2026-07-31) / pds p52 1300000000 (2019-12-31)
+same field,fund_size_aud,net_assets,"different dates, not compared",monthly_07 p1 2450000000 (2026-07-31) / pds p82 1277367000 (2019-12-31)
+same field,fund_size_aud,net_assets,"different dates, not compared",monthly_07 p1 2450000000 (2026-07-31) / portfolio p3 2451900000 (2026-06-30)
+"same document, different pages",fund_size_aud,net_assets,FLAG F16018a,
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p52 1300000000 (2019-12-31) / portfolio p3 2451900000 (2026-06-30)
+same field,fund_size_aud,net_assets,"different dates, not compared",pds p82 1277367000 (2019-12-31) / portfolio p3 2451900000 (2026-06-30)
+"same field, different documents",largest_exposure_pct,limit,same,pds p52 and portfolio p1: 5 (undated)
+same field,loan_count,loans,"different dates, not compared",monthly_06 p1 354 (2026-06-30) / monthly_07 p1 356 (2026-07-31)
+same field,loan_count,loans,"different dates, not compared",monthly_06 p1 354 (2026-06-30) / monthly_08 p1 360 (2026-08-31)
+"same field, different documents",loan_count,loans,FLAG F1499f3,
+same field,loan_count,loans,"different dates, not compared",monthly_06 p1 354 (2026-06-30) / pds p52 140 (2019-12-31)
+"same field, different documents",loan_count,loans,same,monthly_06 p1 and portfolio p1: 354 (2026-06-30)
+same field,loan_count,loans,"different dates, not compared",monthly_07 p1 356 (2026-07-31) / monthly_08 p1 360 (2026-08-31)
+"same field, different documents",loan_count,loans,FLAG Ffd1bdc,
+same field,loan_count,loans,"different dates, not compared",monthly_07 p1 356 (2026-07-31) / pds p52 140 (2019-12-31)
+same field,loan_count,loans,"different dates, not compared",monthly_07 p1 356 (2026-07-31) / portfolio p1 354 (2026-06-30)
+"same field, different documents",loan_count,loans,FLAG F6692e6,
+same field,loan_count,loans,"different dates, not compared",monthly_08 p1 360 (2026-08-31) / pds p52 140 (2019-12-31)
+same field,loan_count,loans,"different dates, not compared",monthly_08 p1 360 (2026-08-31) / portfolio p1 354 (2026-06-30)
+"same field, different documents",loan_count,loans,FLAG F3f14cc,
+same field,loan_count,loans,"different dates, not compared",pds p52 140 (2019-12-31) / portfolio p1 354 (2026-06-30)
+"same document, different pages",management_fee_pct_pa,management_fee,FLAG Fd20aab,
+"same field, different documents",management_fee_pct_pa,management_fee,FLAG F1bb044,
+"same field, different documents",management_fee_pct_pa,management_fee,FLAG Fcef9ae,
+"same field, different documents",manager_identity,legal_name,same,monthly_06 p1 and monthly_07 p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_06 p1 and monthly_08 p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_06 p1 and portfolio p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_06 p1 and tmd p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_07 p1 and monthly_08 p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_07 p1 and portfolio p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_07 p1 and tmd p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_08 p1 and portfolio p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,monthly_08 p1 and tmd p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,legal_name,same,portfolio p1 and tmd p1: Metrics Credit Partners Pty Ltd (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_06 p1 and monthly_07 p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_06 p1 and monthly_08 p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_06 p1 and pds p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_06 p1 and portfolio p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_07 p1 and monthly_08 p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_07 p1 and pds p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_07 p1 and portfolio p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_08 p1 and pds p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,monthly_08 p1 and portfolio p1: 416146 (undated)
+"same field, different documents",manager_identity,licence_number,same,pds p1 and portfolio p1: 416146 (undated)
+same field,monthly_distribution_cpu,,"different dates, not compared",monthly_06 p2 1.28 (2026-06-30) / monthly_07 p2 1.44 (2026-07-31)
+same field,monthly_distribution_cpu,,"different dates, not compared",monthly_06 p2 1.28 (2026-06-30) / monthly_08 p2 1.46 (2026-08-31)
+same field,monthly_distribution_cpu,,"different dates, not compared",monthly_07 p2 1.44 (2026-07-31) / monthly_08 p2 1.46 (2026-08-31)
+"same field, different documents",nta_per_unit,,same,monthly_06 p1 and monthly_07 p1: 2.00 (2026-06-30)
+"same field, different documents",nta_per_unit,,same,monthly_06 p1 and monthly_08 p1: 2.00 (2026-06-30)
+"same field, different documents",nta_per_unit,,same,monthly_06 p1 and pds p28: 2.00 (2026-06-30)
+same field,nta_per_unit,,"different dates, not compared",monthly_06 p1 2.00 (2026-06-30) / pds p81 2.0027 (2019-12-31)
+"same field, different documents",nta_per_unit,,same,monthly_07 p1 and monthly_08 p1: 2.00 (2026-07-31)
+"same field, different documents",nta_per_unit,,same,monthly_07 p1 and pds p28: 2.00 (2026-07-31)
+same field,nta_per_unit,,"different dates, not compared",monthly_07 p1 2.00 (2026-07-31) / pds p81 2.0027 (2019-12-31)
+"same field, different documents",nta_per_unit,,same,monthly_08 p1 and pds p28: 2.00 (2026-08-31)
+same field,nta_per_unit,,"different dates, not compared",monthly_08 p1 2.00 (2026-08-31) / pds p81 2.0027 (2019-12-31)
+"same document, different pages",nta_per_unit,,FLAG F6fd292,
+"same field, different documents",performance_fee,charged_by_trust,same,pds p68 and portfolio p1: yes (undated)
+"same field, different documents",re_identity,acn,same,monthly_06 p2 and monthly_07 p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_06 p2 and monthly_08 p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_06 p2 and pds p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_06 p2 and portfolio p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_06 p2 and tmd p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_07 p1 and monthly_08 p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_07 p1 and pds p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_07 p1 and portfolio p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_07 p1 and tmd p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_08 p1 and pds p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_08 p1 and portfolio p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,monthly_08 p1 and tmd p1: 45003278831 (undated)
+"same field, different documents",re_identity,acn,same,pds p1 and portfolio p1: 003278831 (undated)
+"same field, different documents",re_identity,acn,same,pds p1 and tmd p1: 003278831 (undated)
+"same field, different documents",re_identity,acn,same,portfolio p1 and tmd p1: 003278831 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_06 p1 and monthly_07 p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_06 p1 and monthly_08 p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_06 p1 and pds p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_06 p1 and portfolio p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_06 p1 and tmd p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_07 p1 and monthly_08 p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_07 p1 and pds p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_07 p1 and portfolio p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_07 p1 and tmd p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_08 p1 and pds p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_08 p1 and portfolio p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,monthly_08 p1 and tmd p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,pds p1 and portfolio p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,pds p1 and tmd p1: 235150 (undated)
+"same field, different documents",re_identity,afsl,same,portfolio p1 and tmd p1: 235150 (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_06 p1 and monthly_07 p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_06 p1 and monthly_08 p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_06 p1 and pds p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_06 p1 and portfolio p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_06 p1 and tmd p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_07 p1 and monthly_08 p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_07 p1 and pds p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_07 p1 and portfolio p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_07 p1 and tmd p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_08 p1 and pds p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_08 p1 and portfolio p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,monthly_08 p1 and tmd p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p1 and portfolio p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p1 and tmd p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",re_identity,legal_name,same,portfolio p1 and tmd p1: The Trust Company (RE Services) Limited (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_06 p1 and monthly_07 p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_06 p1 and monthly_08 p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_06 p1 and pds p17: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_06 p1 and portfolio p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_06 p1 and tmd p3: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_07 p1 and monthly_08 p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_07 p1 and pds p17: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_07 p1 and portfolio p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_07 p1 and tmd p3: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_08 p1 and pds p17: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_08 p1 and portfolio p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,monthly_08 p1 and tmd p3: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,pds p17 and portfolio p1: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,pds p17 and tmd p3: 3.25 (undated)
+"same field, different documents",target_return,margin_pct,same,portfolio p1 and tmd p3: 3.25 (undated)
+"same document, different pages",total_fees_and_costs_pct_pa,total,FLAG F7f7cd6,
+"same field, different documents",total_fees_and_costs_pct_pa,total,FLAG F8d94d3,
+"same field, different documents",total_fees_and_costs_pct_pa,total,FLAG F3d605f,
+"same document, different pages",underlying_allocation_pct,daslf,FLAG Fbe8268,
+"same document, different pages",underlying_allocation_pct,redf,FLAG F4373bd,
+"same document, different pages",underlying_allocation_pct,spdf2,FLAG F19e004,
+limit vs actual,largest_exposure_pct,actual,within limit,portfolio p1 actual 2.5 (2026-06-30) against pds p52 limit 5
+limit vs actual,largest_exposure_pct,actual,within limit,portfolio p8 actual 3.9 (2026-06-30) against pds p52 limit 5
+limit vs actual,largest_exposure_pct,actual,within limit,portfolio p13 actual 2.6 (2026-06-30) against pds p52 limit 5
+limit vs actual,largest_exposure_pct,actual,within limit,portfolio p18 actual 3.2 (2026-06-30) against pds p52 limit 5
+limit vs actual,leverage,actual,within limit,pds p61 actual 0 () against pds p61 limit 50
+limit vs actual,strategy_mix_pct,daslf,within limit,pds p25 actual 60 () against pds p24 limit 60-70
+limit vs actual,strategy_mix_pct,daslf,within limit,pds p68 actual 60 () against pds p24 limit 60-70
+limit vs actual,strategy_mix_pct,redf,within limit,pds p25 actual 20 () against pds p24 limit 10-20
+limit vs actual,strategy_mix_pct,redf,within limit,pds p68 actual 20 () against pds p24 limit 10-20
+limit vs actual,strategy_mix_pct,spdf2,within limit,pds p25 actual 20 () against pds p24 limit 20-30
+limit vs actual,strategy_mix_pct,spdf2,within limit,pds p68 actual 20 () against pds p24 limit 20-30
+ASX vs PDS,MER,total,FLAG F7b2727,pds p27 0.61 against ASX MER 0.86
+ASX vs PDS,MER,total,FLAG F189bb4,pds p68 0.67-0.70 against ASX MER 0.86
+ASX vs PDS,MER,total,FLAG F8eebd5,portfolio p1 0.59 against ASX MER 0.86
+ASX vs PDS,outperformance fee,,FLAG F897646,pds p26 0.09% against ASX 'No'
+ASX vs PDS,NTA per unit,,same,monthly_08 p1 2.00 at 2026-08-31 against ASX NTA price 2.0017
+ASX vs PDS,ASX extras,,recorded,"MER 0.86, outperformance fee No, NTA price 2.0017, premium/discount to NTA -4.8% at 2026-08-31"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","monthly_06 p1 AFSL 235150: register name THE TRUST COMPANY (RE SERVICES) LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","monthly_07 p1 AFSL 235150: register name THE TRUST COMPANY (RE SERVICES) LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","monthly_08 p1 AFSL 235150: register name THE TRUST COMPANY (RE SERVICES) LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","pds p1 AFSL 235150: register name THE TRUST COMPANY (RE SERVICES) LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","portfolio p1 AFSL 235150: register name THE TRUST COMPANY (RE SERVICES) LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","tmd p1 AFSL 235150: register name THE TRUST COMPANY (RE SERVICES) LIMITED, licensed since 01/03/2004"
+entity vs ASIC register,manager,,current licence,Metrics Credit Partners Pty Ltd: AFSL 416146 METRICS CREDIT PARTNERS PTY LTD

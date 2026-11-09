@@ -1,0 +1,10 @@
+{
+  "postcode": "2179",
+  "broken_note": "# Postcode 2179, NSW\n\nRental bonds held have grown substantially from $1,323.0 to $3,731.0 since December 2021, representing a 1.4x increase. The private rental stock is estimated to have grown at the same rate to 2,887 households. Bonds per rental property have approximately doubled, rising from $1.1k to $1.1k per unit in the stock estimate. An analyst should verify whether this bond growth reflects genuine rental inflation, increased tenant numbers, or changes in lodgement practices in this postcode.",
+  "checker_passed": false,
+  "checker_problems": [
+    "'3,731.0' is not in the data row",
+    "'1.1' is not in the data row",
+    "'1.1' is not in the data row"
+  ]
+}

@@ -1,0 +1,177 @@
+﻿rule,field,sub_field,result,detail
+same field,12mia_loan_count,,"different dates, not compared",ar p7 10789 (2026-06-30) / deck p8 10114 (2026-09-30)
+same field,12mia_loan_count,,"different dates, not compared",ar p7 10789 (2026-06-30) / pds p48 11540 (2025-04-30)
+same field,12mia_loan_count,,"different dates, not compared",ar p7 10789 (2026-06-30) / profile p4 10350 (2026-08-31)
+feeder vs underlying,12mia_loan_count,,same,ar p7 and uar p7: 10789 (2026-06-30)
+same field,12mia_loan_count,,"different dates, not compared",deck p8 10114 (2026-09-30) / pds p48 11540 (2025-04-30)
+same field,12mia_loan_count,,"different dates, not compared",deck p8 10114 (2026-09-30) / profile p4 10350 (2026-08-31)
+same field,12mia_loan_count,,"different dates, not compared",deck p8 10114 (2026-09-30) / uar p7 10789 (2026-06-30)
+same field,12mia_loan_count,,"different dates, not compared",pds p48 11540 (2025-04-30) / profile p4 10350 (2026-08-31)
+same field,12mia_loan_count,,"different dates, not compared",pds p48 11540 (2025-04-30) / uar p7 10789 (2026-06-30)
+same field,12mia_loan_count,,"different dates, not compared",profile p4 10350 (2026-08-31) / uar p7 10789 (2026-06-30)
+"same field, different documents",12mia_rebate_to_lf1_pct_pa,,same,ar p33 and faqs p3: 0.50 (undated)
+"same field, different documents",12mia_rebate_to_lf1_pct_pa,,same,ar p33 and pds p43: 0.50 (undated)
+"same field, different documents",12mia_rebate_to_lf1_pct_pa,,same,faqs p3 and pds p43: 0.50 (undated)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",ar p7 67.5 (2026-06-30) / deck p8 67.4 (2026-09-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",ar p7 67.5 (2026-06-30) / pds p20 64.7 (2025-04-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",ar p7 67.5 (2026-06-30) / pds p48 65 (2025-04-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",ar p7 67.5 (2026-06-30) / profile p4 67.4 (2026-08-31)
+feeder vs underlying,12mia_weighted_avg_lvr_pct,,same,ar p7 and uar p7: 67.5 (2026-06-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",deck p8 67.4 (2026-09-30) / pds p20 64.7 (2025-04-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",deck p8 67.4 (2026-09-30) / pds p48 65 (2025-04-30)
+"same field, different documents",12mia_weighted_avg_lvr_pct,,same,deck p8 and profile p4: 67.4 (2026-09-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",deck p8 67.4 (2026-09-30) / uar p7 67.5 (2026-06-30)
+"same document, different pages",12mia_weighted_avg_lvr_pct,,FLAG Fb76cb2,
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",pds p20 64.7 (2025-04-30) / profile p4 67.4 (2026-08-31)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",pds p20 64.7 (2025-04-30) / uar p7 67.5 (2026-06-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",pds p48 65 (2025-04-30) / profile p4 67.4 (2026-08-31)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",pds p48 65 (2025-04-30) / uar p7 67.5 (2026-06-30)
+same field,12mia_weighted_avg_lvr_pct,,"different dates, not compared",profile p4 67.4 (2026-08-31) / uar p7 67.5 (2026-06-30)
+"same field, different documents",lf1_allocation_actual_pct,12mia,FLAG F071559,
+"same field, different documents",lf1_allocation_actual_pct,12mia,FLAG Fb80097,
+same field,lf1_allocation_actual_pct,12mia,"different dates, not compared",ar p7 41 (2026-06-30) / profile p2 41.01 (2026-08-31)
+"same field, different documents",lf1_allocation_actual_pct,12mia,same,deck p3 and pds p46: 50 (undated)
+"same field, different documents",lf1_allocation_actual_pct,12mia,FLAG Fced819,
+"same field, different documents",lf1_allocation_actual_pct,12mia,FLAG F97d8b3,
+"same field, different documents",lf1_allocation_actual_pct,uspc,FLAG F902384,
+"same field, different documents",lf1_allocation_actual_pct,uspc,FLAG F378d6f,
+same field,lf1_allocation_actual_pct,uspc,"different dates, not compared",ar p7 ~59 (2026-06-30) / profile p2 58.79 (2026-08-31)
+"same field, different documents",lf1_allocation_actual_pct,uspc,same,deck p3 and pds p46: 50 (undated)
+"same field, different documents",lf1_allocation_actual_pct,uspc,FLAG Fbc9a89,
+"same field, different documents",lf1_allocation_actual_pct,uspc,FLAG Fe4c804,
+"same field, different documents",lf1_allocation_limits,12mia_range,same,deck p3 and faqs p1: 20-100 (undated)
+"same field, different documents",lf1_allocation_limits,12mia_range,same,deck p3 and pds p46: 20-100 (undated)
+"same field, different documents",lf1_allocation_limits,12mia_range,same,deck p3 and profile p3: 20-100 (undated)
+"same field, different documents",lf1_allocation_limits,12mia_range,same,faqs p1 and pds p46: 20-100 (undated)
+"same field, different documents",lf1_allocation_limits,12mia_range,same,faqs p1 and profile p3: 20-100 (undated)
+"same field, different documents",lf1_allocation_limits,12mia_range,same,pds p46 and profile p3: 20-100 (undated)
+"same field, different documents",lf1_allocation_limits,cash_range,same,faqs p1 and pds p46: 0-unlimited (undated)
+"same field, different documents",lf1_allocation_limits,cash_range,same,faqs p1 and profile p3: 0-unlimited (undated)
+"same field, different documents",lf1_allocation_limits,cash_range,same,pds p46 and profile p3: 0-unlimited (undated)
+"same field, different documents",lf1_allocation_limits,uspc_range,same,deck p3 and faqs p1: 0-80 (undated)
+"same field, different documents",lf1_allocation_limits,uspc_range,same,deck p3 and pds p46: 0-80 (undated)
+"same field, different documents",lf1_allocation_limits,uspc_range,same,deck p3 and profile p3: 0-80 (undated)
+"same field, different documents",lf1_allocation_limits,uspc_range,same,faqs p1 and pds p46: 0-80 (undated)
+"same field, different documents",lf1_allocation_limits,uspc_range,same,faqs p1 and profile p3: 0-80 (undated)
+"same field, different documents",lf1_allocation_limits,uspc_range,same,pds p46 and profile p3: 0-80 (undated)
+"same field, different documents",lf1_buyback_policy,approval_can_lift_cap,same,deck p15 and pds p53: yes (undated)
+"same field, different documents",lf1_buyback_policy,approval_can_lift_cap,same,deck p15 and profile p6: yes (undated)
+"same field, different documents",lf1_buyback_policy,approval_can_lift_cap,same,pds p53 and profile p6: yes (undated)
+"same field, different documents",lf1_buyback_policy,cap_12m_pct,same,ar p9 and deck p15: 10 (undated)
+"same field, different documents",lf1_buyback_policy,cap_12m_pct,same,ar p9 and pds p53: 10 (undated)
+"same field, different documents",lf1_buyback_policy,cap_12m_pct,same,ar p9 and profile p6: 10 (undated)
+"same field, different documents",lf1_buyback_policy,cap_12m_pct,same,deck p15 and pds p53: 10 (undated)
+"same field, different documents",lf1_buyback_policy,cap_12m_pct,same,deck p15 and profile p6: 10 (undated)
+"same field, different documents",lf1_buyback_policy,cap_12m_pct,same,pds p53 and profile p6: 10 (undated)
+"same field, different documents",lf1_buyback_policy,quarterly_offer_pct,same,ar p9 and deck p15: 5 (undated)
+"same field, different documents",lf1_buyback_policy,quarterly_offer_pct,same,ar p9 and pds p54: 5 (undated)
+"same field, different documents",lf1_buyback_policy,quarterly_offer_pct,same,deck p15 and pds p54: 5 (undated)
+feeder vs underlying,lf1_investment_in_12mia_aud,,same,ar p24 and uar p40: 110200000 (2026-06-30)
+"same field, different documents",lf1_re_fee_pct_pa,,same,ar p33 and pds p25: 0.05 (undated)
+"same field, different documents",lf1_re_fee_pct_pa,,FLAG Fd27eb9,
+"same field, different documents",lf1_re_fee_pct_pa,,FLAG F8dd3d8,
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,ar p10 and deck p3: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,ar p10 and faqs p1: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,ar p10 and profile p2: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,ar p10 and tmd p1: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,deck p3 and faqs p1: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,deck p3 and profile p2: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,deck p3 and tmd p1: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,faqs p1 and profile p2: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,faqs p1 and tmd p1: 3.25 (undated)
+"same field, different documents",lf1_target_distribution,margin_over_rba_pct,same,profile p2 and tmd p1: 3.25 (undated)
+"same field, different documents",lf1_total_fees_and_costs_pct_pa,re_fee,same,ar p33 and pds p25: 0.05 (undated)
+"same field, different documents",manager_payment,paid_by,FLAG Fc299a5,
+"same field, different documents",manager_payment,paid_by,same,ar p33 and pds p61: RE out of its own fee (undated)
+feeder vs underlying,manager_payment,paid_by,same,ar p33 and uar p13: RE out of its own fee (undated)
+"same document, different pages",manager_payment,paid_by,FLAG F6ea608,
+feeder vs underlying,manager_payment,paid_by,FLAG F6441a3,
+feeder vs underlying,manager_payment,paid_by,same,pds p61 and uar p13: RE out of its own fee (undated)
+"same field, different documents",manager_payment,paid_directly_by_lf1,same,ar p8 and pds p27: no (undated)
+feeder vs underlying,manager_payment,paid_directly_by_lf1,same,ar p8 and uar p13: no (undated)
+feeder vs underlying,manager_payment,paid_directly_by_lf1,same,pds p27 and uar p13: no (undated)
+"same field, different documents",re_identity,acn,same,ar p3 and deck p16: 007332363 (undated)
+"same field, different documents",re_identity,acn,same,ar p3 and pds p2: 007332363 (undated)
+"same field, different documents",re_identity,acn,FLAG F03c089,
+"same field, different documents",re_identity,acn,same,ar p3 and profile p6: 007332363 (undated)
+"same field, different documents",re_identity,acn,same,ar p3 and tmd p1: 007332363 (undated)
+feeder vs underlying,re_identity,acn,same,ar p3 and uar p3: 007332363 (undated)
+"same field, different documents",re_identity,acn,same,deck p16 and pds p2: 007332363 (undated)
+"same field, different documents",re_identity,acn,FLAG Fd1b7a4,
+"same field, different documents",re_identity,acn,same,deck p16 and profile p6: 007332363 (undated)
+"same field, different documents",re_identity,acn,same,deck p16 and tmd p1: 007332363 (undated)
+feeder vs underlying,re_identity,acn,same,deck p16 and uar p3: 007332363 (undated)
+"same document, different pages",re_identity,acn,FLAG Ff6b1f5,
+"same field, different documents",re_identity,acn,same,pds p2 and profile p6: 007332363 (undated)
+"same field, different documents",re_identity,acn,same,pds p2 and tmd p1: 007332363 (undated)
+feeder vs underlying,re_identity,acn,same,pds p2 and uar p3: 007332363 (undated)
+"same field, different documents",re_identity,acn,FLAG Fae65be,
+"same field, different documents",re_identity,acn,FLAG Fe6315d,
+feeder vs underlying,re_identity,acn,FLAG Fc41a0d,
+"same field, different documents",re_identity,acn,same,profile p6 and tmd p1: 007332363 (undated)
+feeder vs underlying,re_identity,acn,same,profile p6 and uar p3: 007332363 (undated)
+feeder vs underlying,re_identity,acn,same,tmd p1 and uar p3: 007332363 (undated)
+"same field, different documents",re_identity,afsl,same,ar p8 and deck p16: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,ar p8 and pds p2: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,ar p8 and profile p6: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,ar p8 and tmd p1: 222213 (undated)
+feeder vs underlying,re_identity,afsl,same,ar p8 and uar p13: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,deck p16 and pds p2: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,deck p16 and profile p6: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,deck p16 and tmd p1: 222213 (undated)
+feeder vs underlying,re_identity,afsl,same,deck p16 and uar p13: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,pds p2 and profile p6: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,pds p2 and tmd p1: 222213 (undated)
+feeder vs underlying,re_identity,afsl,same,pds p2 and uar p13: 222213 (undated)
+"same field, different documents",re_identity,afsl,same,profile p6 and tmd p1: 222213 (undated)
+feeder vs underlying,re_identity,afsl,same,profile p6 and uar p13: 222213 (undated)
+feeder vs underlying,re_identity,afsl,same,tmd p1 and uar p13: 222213 (undated)
+"same field, different documents",re_identity,legal_name,same,ar p3 and deck p16: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,ar p3 and pds p2: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,ar p3 and profile p3: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,ar p3 and tmd p1: La Trobe Financial Asset Management Limited (undated)
+feeder vs underlying,re_identity,legal_name,same,ar p3 and uar p3: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,deck p16 and pds p2: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,deck p16 and profile p3: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,deck p16 and tmd p1: La Trobe Financial Asset Management Limited (undated)
+feeder vs underlying,re_identity,legal_name,same,deck p16 and uar p3: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p2 and profile p3: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,pds p2 and tmd p1: La Trobe Financial Asset Management Limited (undated)
+feeder vs underlying,re_identity,legal_name,same,pds p2 and uar p3: La Trobe Financial Asset Management Limited (undated)
+"same field, different documents",re_identity,legal_name,same,profile p3 and tmd p1: La Trobe Financial Asset Management Limited (undated)
+feeder vs underlying,re_identity,legal_name,same,profile p3 and uar p3: La Trobe Financial Asset Management Limited (undated)
+feeder vs underlying,re_identity,legal_name,same,tmd p1 and uar p3: La Trobe Financial Asset Management Limited (undated)
+"same document, different pages",underlying_redemption_cap_pct_per_quarter,lgam,FLAG F794104,
+"same field, different documents",underlying_redemption_cap_pct_per_quarter,uspc,same,ar p26 and pds p57: 5 (undated)
+same field,uspc_weighted_avg_ltv_pct,,"different dates, not compared",ar p7 38.8 (2026-06-30) / deck p11 38.4 (2026-08-31)
+same field,uspc_weighted_avg_ltv_pct,,"different dates, not compared",ar p7 38.8 (2026-06-30) / pds p20 39 (2025-03-31)
+"same field, different documents",uspc_weighted_avg_ltv_pct,,FLAG Feb3996,
+same field,uspc_weighted_avg_ltv_pct,,"different dates, not compared",deck p11 38.4 (2026-08-31) / pds p20 39 (2025-03-31)
+"same field, different documents",uspc_weighted_avg_ltv_pct,,same,deck p11 and profile p5: 38.4 (2026-08-31)
+same field,uspc_weighted_avg_ltv_pct,,"different dates, not compared",pds p20 39 (2025-03-31) / profile p5 38.4 (2026-06-30)
+limit vs actual,12mia_weighted_avg_lvr_pct,,within limit,ar p7 actual 67.5 (2026-06-30) against pds p48 limit 80
+limit vs actual,12mia_weighted_avg_lvr_pct,,within limit,deck p8 actual 67.4 (2026-09-30) against pds p48 limit 80
+limit vs actual,12mia_weighted_avg_lvr_pct,,within limit,pds p20 actual 64.7 (2025-04-30) against pds p48 limit 80
+limit vs actual,12mia_weighted_avg_lvr_pct,,within limit,pds p48 actual 65 (2025-04-30) against pds p48 limit 80
+limit vs actual,12mia_weighted_avg_lvr_pct,,within limit,profile p4 actual 67.4 (2026-08-31) against pds p48 limit 80
+limit vs actual,12mia_weighted_avg_lvr_pct,,within limit,uar p7 actual 67.5 (2026-06-30) against pds p48 limit 80
+limit vs actual,lf1_allocation_actual_pct,12mia,within limit,ar p7 actual 41 (2026-06-30) against deck p3 limit 20-100
+limit vs actual,lf1_allocation_actual_pct,12mia,within limit,deck p3 actual 50 () against deck p3 limit 20-100
+limit vs actual,lf1_allocation_actual_pct,12mia,within limit,pds p46 actual ~50 () against deck p3 limit 20-100
+limit vs actual,lf1_allocation_actual_pct,12mia,within limit,profile p2 actual 41.01 (2026-08-31) against deck p3 limit 20-100
+limit vs actual,lf1_allocation_actual_pct,uspc,within limit,ar p7 actual ~59 (2026-06-30) against deck p3 limit 0-80
+limit vs actual,lf1_allocation_actual_pct,uspc,within limit,deck p3 actual 50 () against deck p3 limit 0-80
+limit vs actual,lf1_allocation_actual_pct,uspc,within limit,pds p46 actual ~50 () against deck p3 limit 0-80
+limit vs actual,lf1_allocation_actual_pct,uspc,within limit,profile p2 actual 58.79 (2026-08-31) against deck p3 limit 0-80
+limit vs actual,lf1_allocation_actual_pct,cash,within limit,profile p2 actual 0.21 (2026-08-31) against faqs p1 limit 0-unlimited
+ASX vs PDS,MER,total,same,pds p25 1.93 against ASX MER 1.93
+ASX vs PDS,MER,total,same,pds p80 1.93 against ASX MER 1.93
+ASX vs PDS,outperformance fee,,FLAG F139a98,pds p25 0.07% against ASX 'No'
+ASX vs PDS,ASX extras,,recorded,"MER 1.93, outperformance fee No, NTA price 1.96, premium/discount to NTA -3.3% at 2026-08-31"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","ar p8 AFSL 222213: register name LA TROBE FINANCIAL ASSET MANAGEMENT LIMITED, licensed since 01/10/2002"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","deck p16 AFSL 222213: register name LA TROBE FINANCIAL ASSET MANAGEMENT LIMITED, licensed since 01/10/2002"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","pds p2 AFSL 222213: register name LA TROBE FINANCIAL ASSET MANAGEMENT LIMITED, licensed since 01/10/2002"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","profile p6 AFSL 222213: register name LA TROBE FINANCIAL ASSET MANAGEMENT LIMITED, licensed since 01/10/2002"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","tmd p1 AFSL 222213: register name LA TROBE FINANCIAL ASSET MANAGEMENT LIMITED, licensed since 01/10/2002"
+entity vs ASIC register,re_identity,afsl,"current licence, name matches","uar p13 AFSL 222213: register name LA TROBE FINANCIAL ASSET MANAGEMENT LIMITED, licensed since 01/10/2002"
+entity vs ASIC register,manager,,FLAG F71fe7e,La Trobe Financial Services Pty Limited
